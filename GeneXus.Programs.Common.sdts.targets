@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+<ItemGroup>
+	<Reference Include="WorkWithPlus_Web.dll">
+		<HintPath>$(WebBinDirectory)\WorkWithPlus_Web.dll</HintPath>
+	</Reference>
+
+</ItemGroup>
+
+<ItemGroup>
+ 	<Compile Include="$(WebDirectory)\type_SdtFileUploadData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSchedulerEvents.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSchedulerEvents_event.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSchedulerEvents_Day.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSDTCambioEstatus_SDTCambioEstatusItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSDTFacturaEstatus_SDTFacturaEstatusItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSDTGraficaFacturasPorMes_SDTGraficaFacturasPorMesItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSDTGraficaModelos_SDTGraficaModelosItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSDTModelos_SDTModelosItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSDTMotivoRechazoGrafico_SDTMotivoRechazoItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSDTPromocion.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSDTSegmentos_Segmento.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSDTToken.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSDTTotalesBonoMes.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSDTUsuario.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtSDTUsuarioExport.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtTokenResponse.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtUsuarioSDT_UsuarioSDTItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtWPFacturaWizardData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtWPFacturaWizardData_SelecPromo.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtWPFacturaWizardData_SelecMedidas.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtWPFacturaWizardData_SelecMedidas_GridItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtWPWizardPromoData.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtWPWizardPromoData_InfoGeneral.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtWPWizardPromoData_Segmentos.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtWPWizardPromoData_Segmentos_GridItem.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtWPWizardPromoData_Modelos.cs" />
+ 	<Compile Include="$(WebDirectory)\type_SdtWPWizardPromoData_Modelos_GridItem.cs" />
+ 	<Compile Include="$(WebDirectory)\wwpbaseobjects\type_SdtWWPContext.cs" />
+
+</ItemGroup>
+
+</Project>

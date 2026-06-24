@@ -1,0 +1,749 @@
+warn: Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository[50]
+      Using an in-memory repository. Keys will not be persisted to storage.
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[59]
+      Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+warn: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[16]
+      The WebRootPath was not found: C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wwwroot. Static files may be unavailable.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[58]
+      Creating key {a9df73ae-559c-485c-b492-ff59209d245c} with creation date 2026-06-02 04:15:12Z, activation date 2026-06-02 04:15:12Z, and expiration date 2026-08-31 04:15:12Z.
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {a9df73ae-559c-485c-b492-ff59209d245c} may be persisted to storage in unencrypted form.
+Hosting environment: Production
+Content root path: C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx
+Now listening on: http://127.0.0.1:31745
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/ - - -
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GeneXus.Application.HomeController (GxNetCoreStartup).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor[1]
+      Executing RedirectResult, redirecting to default.htm.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action GeneXus.Application.HomeController.Index (GxNetCoreStartup) in 5.5051ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/ - 302 0 - 123.5622ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/ - application/x-www-form-urlencoded 13
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GeneXus.Application.HomeController (GxNetCoreStartup).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor[1]
+      Executing RedirectResult, redirecting to default.htm.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action GeneXus.Application.HomeController.Index (GxNetCoreStartup) in 1.2496ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/ - 302 0 - 4.7046ms
+info: Microsoft.AspNetCore.Server.Kestrel[32]
+      Connection id "0HNM0BM5CFHML", Request id "0HNM0BM5CFHML:00000002": the application completed without reading the entire request body.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/_ignition/health-check - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /_ignition/health-check
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/_ignition/health-check - 404 0 - 41.5802ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/api - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /api
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/api - 404 0 - 2.6216ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/aaa-debug-probe - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /aaa-debug-probe
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/aaa-debug-probe - 404 0 - 2.1453ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/actuator/env - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /actuator/env
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/actuator/env - 404 0 - 1.9038ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/actuator/configprops - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /actuator/configprops
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/actuator/configprops - 404 0 - 2.1730ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/.git-credentials - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /.git-credentials
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/.git-credentials - 404 0 - 2.5437ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/service-account.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /service-account.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/service-account.json - 404 0 - 2.7544ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/sa.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /sa.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/sa.json - 404 0 - 1.9832ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/gcp-key.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /gcp-key.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/gcp-key.json - 404 0 - 2.1090ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/gcp-sa.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /gcp-sa.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/gcp-sa.json - 404 0 - 2.5949ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/google-key.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /google-key.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/google-key.json - 404 0 - 2.0224ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/key.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /key.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/key.json - 404 0 - 1.9410ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/keyfile.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /keyfile.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/keyfile.json - 404 0 - 1.8040ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/firebase-adminsdk.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /firebase-adminsdk.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/firebase-adminsdk.json - 404 0 - 1.8132ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/firebase-key.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /firebase-key.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/firebase-key.json - 404 0 - 2.7796ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/gcloud-service-key.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /gcloud-service-key.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/gcloud-service-key.json - 404 0 - 2.0782ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/service_account.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /service_account.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/service_account.json - 404 0 - 1.4318ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/gcp_key.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /gcp_key.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/gcp_key.json - 404 0 - 1.2422ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/google-service-account.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /google-service-account.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/google-service-account.json - 404 0 - 1.2171ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/cloud-key.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /cloud-key.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/cloud-key.json - 404 0 - 1.5306ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/config/gcloud.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /config/gcloud.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/config/gcloud.json - 404 0 - 1.7686ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/secrets/gcp.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /secrets/gcp.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/secrets/gcp.json - 404 0 - 1.5256ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/gcp/sa.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /gcp/sa.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/gcp/sa.json - 404 0 - 1.2913ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/keys/service-account.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /keys/service-account.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/keys/service-account.json - 404 0 - 1.2388ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/app/config/gcp.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /app/config/gcp.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/app/config/gcp.json - 404 0 - 2.7585ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/__/firebase/init.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /__/firebase/init.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/__/firebase/init.json - 404 0 - 1.2096ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/info.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /info.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/info.php - 404 0 - 1.1743ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/test.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /test.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/test.php - 404 0 - 0.9830ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/php_info.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /php_info.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/php_info.php - 404 0 - 1.3892ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/pi.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /pi.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/pi.php - 404 0 - 1.1990ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/i.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /i.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/i.php - 404 0 - 1.3933ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/php.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /php.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/php.php - 404 0 - 1.5982ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/pinfo.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /pinfo.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/pinfo.php - 404 0 - 1.1939ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/debug.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /debug.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/debug.php - 404 0 - 1.1163ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/phpinfo - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /phpinfo
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/phpinfo - 404 0 - 1.5717ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/php-info - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /php-info
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/php-info - 404 0 - 0.8222ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/info - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /info
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/info - 404 0 - 0.9536ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/conf.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /conf.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/conf.php - 404 0 - 1.2310ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/configuration.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /configuration.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/configuration.php - 404 0 - 0.8795ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/settings.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /settings.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/settings.php - 404 0 - 1.1976ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/db.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /db.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/db.php - 404 0 - 1.0382ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/database.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /database.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/database.php - 404 0 - 0.9591ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/conn.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /conn.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/conn.php - 404 0 - 0.8217ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/connect.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /connect.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/connect.php - 404 0 - 1.1978ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/connection.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /connection.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/connection.php - 404 0 - 0.8207ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/local.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /local.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/local.php - 404 0 - 1.0613ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/setup.php - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /setup.php
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/setup.php - 404 0 - 1.1016ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/application.properties - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /application.properties
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/application.properties - 404 0 - 1.5758ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/application.yml - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /application.yml
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/application.yml - 404 0 - 0.8934ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/application.yaml - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /application.yaml
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/application.yaml - 404 0 - 1.0613ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/application-prod.properties - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /application-prod.properties
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/application-prod.properties - 404 0 - 1.1052ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/application-prod.yml - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /application-prod.yml
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/application-prod.yml - 404 0 - 1.0094ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/application-production.properties - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /application-production.properties
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/application-production.properties - 404 0 - 1.3651ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/application-production.yml - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /application-production.yml
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/application-production.yml - 404 0 - 1.0965ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/application-dev.properties - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /application-dev.properties
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/application-dev.properties - 404 0 - 0.8536ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/application-staging.properties - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /application-staging.properties
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/application-staging.properties - 404 0 - 1.3235ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/META-INF/context.xml - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /META-INF/context.xml
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/META-INF/context.xml - 404 0 - 1.3647ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/appsettings.json - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/appsettings.json'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\appsettings.json'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/appsettings.json - 401 0 application/json 21.2313ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/appsettings.Development.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /appsettings.Development.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/appsettings.Development.json - 404 0 - 1.2032ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/appsettings.Production.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /appsettings.Production.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/appsettings.Production.json - 404 0 - 1.2806ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/appsettings.Staging.json - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /appsettings.Staging.json
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/appsettings.Staging.json - 404 0 - 1.1236ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/config/credentials.yml.enc - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /config/credentials.yml.enc
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/config/credentials.yml.enc - 404 0 - 1.6975ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/config/initializers/secret_token.rb - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /config/initializers/secret_token.rb
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/config/initializers/secret_token.rb - 404 0 - 1.0709ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/ - - -
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GeneXus.Application.HomeController (GxNetCoreStartup).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor[1]
+      Executing RedirectResult, redirecting to default.htm.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action GeneXus.Application.HomeController.Index (GxNetCoreStartup) in 0.7258ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/ - 302 0 - 1.6352ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/default.htm - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /default.htm
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/default.htm - 404 0 - 1.0736ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:31745/iisintegration - - 0
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://127.0.0.1:31745/iisintegration - 202 0 - 0.2085ms

@@ -1,0 +1,31 @@
+warn: Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository[50]
+      Using an in-memory repository. Keys will not be persisted to storage.
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[59]
+      Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+warn: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[16]
+      The WebRootPath was not found: C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wwwroot. Static files may be unavailable.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[58]
+      Creating key {04d9feea-1536-47f9-8bba-c45f6ff6b604} with creation date 2026-03-19 01:34:31Z, activation date 2026-03-19 01:34:31Z, and expiration date 2026-06-17 01:34:31Z.
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {04d9feea-1536-47f9-8bba-c45f6ff6b604} may be persisted to storage in unencrypted form.
+Hosting environment: Production
+Content root path: C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx
+Now listening on: http://127.0.0.1:26947
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Telerik.Web.UI.DialogHandler.aspx - - -
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /Telerik.Web.UI.DialogHandler.aspx
+         at GeneXus.HttpHandlerFactory.HandlerFactory.Invoke(HttpContext context)
+         at GeneXus.HttpHandlerFactory.HandlerFactory.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Session.DistributedSession[3]
+      Session started; Key:78d696e1-a8fb-fb55-4a84-0911cfcf387c, Id:4d1bbd9e-2614-523c-d199-b3d55bb3a4d1
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Telerik.Web.UI.DialogHandler.aspx - 404 0 - 481.1499ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:26947/iisintegration - - 0
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://127.0.0.1:26947/iisintegration - 202 0 - 0.7464ms

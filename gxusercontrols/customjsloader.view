@@ -1,0 +1,73 @@
+<!-- Elementos "proxy" para mapear los eventos GX a eventos DOM -->
+<div id="YT_EVENT_PLAY"   data-event="OnVideoPlay"   style="display:none;"></div>
+<div id="YT_EVENT_PAUSE"  data-event="OnVideoPause"  style="display:none;"></div>
+<div id="YT_EVENT_END"    data-event="OnVideoEnd"    style="display:none;"></div>
+
+<script>
+(function waitForGXMediaPlayer(){
+    var iframe      = document.querySelector("#GXMEDIAPLAYERContainer iframe");
+    var playProxy   = document.getElementById("YT_EVENT_PLAY");
+    var pauseProxy  = document.getElementById("YT_EVENT_PAUSE");
+    var endProxy    = document.getElementById("YT_EVENT_END");
+
+    if(!iframe || !playProxy || !pauseProxy || !endProxy){
+        console.log("Esperando GXMediaPlayer o proxies...");
+        return setTimeout(waitForGXMediaPlayer, 500);
+    }
+
+    console.log("GXMediaPlayer listo:", iframe);
+
+    // Asignar ID al iframe
+    iframe.id = "YT_IFRAME";
+
+    // Asegurar enablejsapi=1
+    if(iframe.src.indexOf("enablejsapi=1") === -1){
+        iframe.src += (iframe.src.indexOf("?") > -1 ? "&enablejsapi=1" : "?enablejsapi=1");
+    }
+
+    function triggerClick(el){
+        if (!el) return;
+        var ev;
+        if (typeof(Event) === "function") {
+            ev = new Event("click", { bubbles: true, cancelable: true });
+        } else {
+            // Fallback viejo por si acaso
+            ev = document.createEvent("Event");
+            ev.initEvent("click", true, true);
+        }
+        el.dispatchEvent(ev);
+    }
+
+    function onReady(){
+        console.log("YouTube API lista, creando player...");
+        var player = new YT.Player("YT_IFRAME", {
+            events:{
+                onStateChange: function(e){
+                    if(e.data === 1){ // PLAY
+                        console.log("PLAY DETECTADO");
+                        triggerClick(playProxy);   // dispara OnVideoPlay
+                    }
+                    if(e.data === 2){ // PAUSE
+                        console.log("PAUSE DETECTADO");
+                        triggerClick(pauseProxy);  // dispara OnVideoPause
+                    }
+                    if(e.data === 0){ // END
+                        console.log("END DETECTADO");
+                        triggerClick(endProxy);    // dispara OnVideoEnd
+                    }
+                }
+            }
+        });
+    }
+
+    if(!window.YT){
+        var tag = document.createElement("script");
+        tag.src = "https://www.youtube.com/iframe_api";
+        document.body.appendChild(tag);
+        window.onYouTubeIframeAPIReady = onReady;
+    } else {
+        onReady();
+    }
+
+})();
+</script>

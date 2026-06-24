@@ -1,0 +1,1839 @@
+openapi: 3.0.0
+info:
+  title: "Premios"
+  version: "20260511173134"
+servers:
+  - url: https://premios.megatransporte.mx//rest
+paths:
+  /ActualizarSegmentoPromocion:
+    post:
+      tags:
+        - ActualizarSegmentoPromocion
+      operationId: "ActualizarSegmentoPromocion"
+      summary: "Actualizar Segmento Promocion"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ActualizarSegmentoPromocionInput"
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /DPFacturaEstatus:
+    get:
+      tags:
+        - DPFacturaEstatus
+      operationId: "DPFacturaEstatus"
+      summary: "DPFactura Estatus"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SDTFacturaEstatus_SDTFacturaEstatusItem"  
+        404:
+          description: "Not found"
+  /DPFacturaEstatusFiltrado:
+    get:
+      tags:
+        - DPFacturaEstatusFiltrado
+      operationId: "DPFacturaEstatusFiltrado"
+      summary: "DPFactura Estatus Filtrado"
+      parameters:
+        - name: "Fromdate"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Todate"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Listausuarios"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SDTFacturaEstatus_SDTFacturaEstatusItem"  
+        404:
+          description: "Not found"
+  /DPFacturaEstatusFiltradoNew:
+    get:
+      tags:
+        - DPFacturaEstatusFiltradoNew
+      operationId: "DPFacturaEstatusFiltradoNew"
+      summary: "DPFactura Estatus Filtrado New"
+      parameters:
+        - name: "Fromdate"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Todate"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Listausuarios"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+        - name: "Promocionid"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+        - name: "Facturano"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+        - name: "Filtroestatus"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SDTFacturaEstatus_SDTFacturaEstatusItem"  
+        404:
+          description: "Not found"
+  /DPGraficaFacturasPorMes:
+    get:
+      tags:
+        - DPGraficaFacturasPorMes
+      operationId: "DPGraficaFacturasPorMes"
+      summary: "DPGrafica Facturas Por Mes"
+      parameters:
+        - name: "Year"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int32"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SDTGraficaFacturasPorMes_SDTGraficaFacturasPorMesItem"  
+        404:
+          description: "Not found"
+  /DPGraficaFacturasPorMesFiltrado:
+    get:
+      tags:
+        - DPGraficaFacturasPorMesFiltrado
+      operationId: "DPGraficaFacturasPorMesFiltrado"
+      summary: "DPGrafica Facturas Por Mes Filtrado"
+      parameters:
+        - name: "Fromdate"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Todate"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Listausuarios"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SDTGraficaFacturasPorMes_SDTGraficaFacturasPorMesItem"  
+        404:
+          description: "Not found"
+  /DPGraficaFacturasPorMesFiltradoDinamico:
+    get:
+      tags:
+        - DPGraficaFacturasPorMesFiltradoDinamico
+      operationId: "DPGraficaFacturasPorMesFiltradoDinamico"
+      summary: "DPGrafica Facturas Por Mes Filtrado Dinamico"
+      parameters:
+        - name: "Fromdate"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Todate"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Listausuarios"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SDTGraficaFacturasPorMes_SDTGraficaFacturasPorMesItem"  
+        404:
+          description: "Not found"
+  /DPGraficaFacturasPorMesFiltradoNew:
+    get:
+      tags:
+        - DPGraficaFacturasPorMesFiltradoNew
+      operationId: "DPGraficaFacturasPorMesFiltradoNew"
+      summary: "DPGrafica Facturas Por Mes Filtrado New"
+      parameters:
+        - name: "Fromdate"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Todate"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+            format: "date"
+        - name: "Listausuarios"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+        - name: "Promocionid"
+          in: "query"
+          required: false
+          schema:
+            type: "integer"
+            format: "int64"
+        - name: "Facturano"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+        - name: "Filtroestatus"
+          in: "query"
+          required: false
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SDTGraficaFacturasPorMes_SDTGraficaFacturasPorMesItem"  
+        404:
+          description: "Not found"
+  /DPGraficaModelos:
+    get:
+      tags:
+        - DPGraficaModelos
+      operationId: "DPGraficaModelos"
+      summary: "DPGrafica Modelos"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SDTGraficaModelos_SDTGraficaModelosItem"  
+        404:
+          description: "Not found"
+  /DPMotivoRechazoGrafico:
+    get:
+      tags:
+        - DPMotivoRechazoGrafico
+      operationId: "DPMotivoRechazoGrafico"
+      summary: "DPMotivo Rechazo Grafico"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SDTMotivoRechazoGrafico_SDTMotivoRechazoItem"  
+        404:
+          description: "Not found"
+  /EstadoLoadDVCombo:
+    post:
+      tags:
+        - EstadoLoadDVCombo
+      operationId: "EstadoLoadDVCombo"
+      summary: "Estado Load DVCombo"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EstadoLoadDVComboInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EstadoLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /EstadoWWGetFilterData:
+    post:
+      tags:
+        - EstadoWWGetFilterData
+      operationId: "EstadoWWGetFilterData"
+      summary: "Estado WWGet Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EstadoWWGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EstadoWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /GetCantidadPorEstatusFiltradoNew:
+    post:
+      tags:
+        - GetCantidadPorEstatusFiltradoNew
+      operationId: "GetCantidadPorEstatusFiltradoNew"
+      summary: "Get Cantidad Por Estatus Filtrado New"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GetCantidadPorEstatusFiltradoNewInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GetCantidadPorEstatusFiltradoNewOutput"
+        404:
+          description: "Not found"
+  /KeepAlive:
+    post:
+      tags:
+        - KeepAlive
+      operationId: "KeepAlive"
+      summary: "Keep Alive"
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /MostrarFacturaPDF:
+    post:
+      tags:
+        - MostrarFacturaPDF
+      operationId: "MostrarFacturaPDF"
+      summary: "Mostrar Factura PDF"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/MostrarFacturaPDFInput"
+      responses:
+        200:
+          description: "Successful operation"
+        404:
+          description: "Not found"
+  /ObtieneValorDirectiva:
+    post:
+      tags:
+        - ObtieneValorDirectiva
+      operationId: "ObtieneValorDirectiva"
+      summary: "Obtiene Valor Directiva"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ObtieneValorDirectivaInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ObtieneValorDirectivaOutput"
+        404:
+          description: "Not found"
+  /PaisWWGetFilterData:
+    post:
+      tags:
+        - PaisWWGetFilterData
+      operationId: "PaisWWGetFilterData"
+      summary: "Pais WWGet Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PaisWWGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PaisWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /PromocionWWGetFilterData:
+    post:
+      tags:
+        - PromocionWWGetFilterData
+      operationId: "PromocionWWGetFilterData"
+      summary: "Promocion WWGet Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PromocionWWGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PromocionWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /TestAgregarParticipanteLoadDVCombo:
+    post:
+      tags:
+        - TestAgregarParticipanteLoadDVCombo
+      operationId: "TestAgregarParticipanteLoadDVCombo"
+      summary: "Test Agregar Participante Load DVCombo"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TestAgregarParticipanteLoadDVComboInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TestAgregarParticipanteLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /TestJWT:
+    post:
+      tags:
+        - TestJWT
+      operationId: "TestJWT"
+      summary: "Test JWT"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TestJWTOutput"
+        404:
+          description: "Not found"
+  /TrnDirectivaWWGetFilterData:
+    post:
+      tags:
+        - TrnDirectivaWWGetFilterData
+      operationId: "TrnDirectivaWWGetFilterData"
+      summary: "Trn Directiva WWGet Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TrnDirectivaWWGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TrnDirectivaWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WCPartidasFacturaGetFilterData:
+    post:
+      tags:
+        - WCPartidasFacturaGetFilterData
+      operationId: "WCPartidasFacturaGetFilterData"
+      summary: "WCPartidas Factura Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WCPartidasFacturaGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WCPartidasFacturaGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WorkWithPlus/WWP_ParameterWWGetFilterData:
+    post:
+      tags:
+        - WorkWithPlus
+      operationId: "WorkWithPlus.WWP_ParameterWWGetFilterData"
+      summary: "WWPParameter WWGet Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WorkWithPlus.WWP_ParameterWWGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WorkWithPlus.WWP_ParameterWWGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPActualizarInfoUsuarioLoadDVCombo:
+    post:
+      tags:
+        - WPActualizarInfoUsuarioLoadDVCombo
+      operationId: "WPActualizarInfoUsuarioLoadDVCombo"
+      summary: "WPActualizar Info Usuario Load DVCombo"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPActualizarInfoUsuarioLoadDVComboInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPActualizarInfoUsuarioLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /WPAgregarParticipanteLoadDVCombo:
+    post:
+      tags:
+        - WPAgregarParticipanteLoadDVCombo
+      operationId: "WPAgregarParticipanteLoadDVCombo"
+      summary: "WPAgregar Participante Load DVCombo"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPAgregarParticipanteLoadDVComboInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPAgregarParticipanteLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /WPAgregarUsuarioLoadDVCombo:
+    post:
+      tags:
+        - WPAgregarUsuarioLoadDVCombo
+      operationId: "WPAgregarUsuarioLoadDVCombo"
+      summary: "WPAgregar Usuario Load DVCombo"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPAgregarUsuarioLoadDVComboInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPAgregarUsuarioLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /WPChartsFacturasGetFilterData:
+    post:
+      tags:
+        - WPChartsFacturasGetFilterData
+      operationId: "WPChartsFacturasGetFilterData"
+      summary: "WPCharts Facturas Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPChartsFacturasGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPChartsFacturasGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPCiudadGetFilterData:
+    post:
+      tags:
+        - WPCiudadGetFilterData
+      operationId: "WPCiudadGetFilterData"
+      summary: "WPCiudad Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPCiudadGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPCiudadGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPDetallePromocionAdminFacturaWCGetFilterData:
+    post:
+      tags:
+        - WPDetallePromocionAdminFacturaWCGetFilterData
+      operationId: "WPDetallePromocionAdminFacturaWCGetFilterData"
+      summary: "WPDetalle Promocion Admin Factura WCGet Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPDetallePromocionAdminFacturaWCGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPDetallePromocionAdminFacturaWCGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPDistribuidoresAsesorGetFilterData:
+    post:
+      tags:
+        - WPDistribuidoresAsesorGetFilterData
+      operationId: "WPDistribuidoresAsesorGetFilterData"
+      summary: "WPDistribuidores Asesor Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPDistribuidoresAsesorGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPDistribuidoresAsesorGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPDistribuidorGetFilterData:
+    post:
+      tags:
+        - WPDistribuidorGetFilterData
+      operationId: "WPDistribuidorGetFilterData"
+      summary: "WPDistribuidor Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPDistribuidorGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPDistribuidorGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPEscolaridadGetFilterData:
+    post:
+      tags:
+        - WPEscolaridadGetFilterData
+      operationId: "WPEscolaridadGetFilterData"
+      summary: "WPEscolaridad Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPEscolaridadGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPEscolaridadGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPEstadoGetFilterData:
+    post:
+      tags:
+        - WPEstadoGetFilterData
+      operationId: "WPEstadoGetFilterData"
+      summary: "WPEstado Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPEstadoGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPEstadoGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPFacturaMedidaGetFilterData:
+    post:
+      tags:
+        - WPFacturaMedidaGetFilterData
+      operationId: "WPFacturaMedidaGetFilterData"
+      summary: "WPFactura Medida Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPFacturaMedidaGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPFacturaMedidaGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPFacturasAsesGetFilterData:
+    post:
+      tags:
+        - WPFacturasAsesGetFilterData
+      operationId: "WPFacturasAsesGetFilterData"
+      summary: "WPFacturas Ases Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPFacturasAsesGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPFacturasAsesGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPFacturasGetFilterData:
+    post:
+      tags:
+        - WPFacturasGetFilterData
+      operationId: "WPFacturasGetFilterData"
+      summary: "WPFacturas Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPFacturasGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPFacturasGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPFacturasPartGetFilterData:
+    post:
+      tags:
+        - WPFacturasPartGetFilterData
+      operationId: "WPFacturasPartGetFilterData"
+      summary: "WPFacturas Part Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPFacturasPartGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPFacturasPartGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPFacturasPromoPartGetFilterData:
+    post:
+      tags:
+        - WPFacturasPromoPartGetFilterData
+      operationId: "WPFacturasPromoPartGetFilterData"
+      summary: "WPFacturas Promo Part Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPFacturasPromoPartGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPFacturasPromoPartGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPFacturaWizardLoadDVCombo:
+    post:
+      tags:
+        - WPFacturaWizardLoadDVCombo
+      operationId: "WPFacturaWizardLoadDVCombo"
+      summary: "WPFactura Wizard Load DVCombo"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPFacturaWizardLoadDVComboInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPFacturaWizardLoadDVComboOutput"
+        404:
+          description: "Not found"
+  /WPListaAsesoresAsignadosGetFilterData:
+    post:
+      tags:
+        - WPListaAsesoresAsignadosGetFilterData
+      operationId: "WPListaAsesoresAsignadosGetFilterData"
+      summary: "WPLista Asesores Asignados Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPListaAsesoresAsignadosGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPListaAsesoresAsignadosGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPListaAsesoresGetFilterData:
+    post:
+      tags:
+        - WPListaAsesoresGetFilterData
+      operationId: "WPListaAsesoresGetFilterData"
+      summary: "WPLista Asesores Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPListaAsesoresGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPListaAsesoresGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPListaParticipantesGetFilterData:
+    post:
+      tags:
+        - WPListaParticipantesGetFilterData
+      operationId: "WPListaParticipantesGetFilterData"
+      summary: "WPLista Participantes Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPListaParticipantesGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPListaParticipantesGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPListaPromocionesAsesorGetFilterData:
+    post:
+      tags:
+        - WPListaPromocionesAsesorGetFilterData
+      operationId: "WPListaPromocionesAsesorGetFilterData"
+      summary: "WPLista Promociones Asesor Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPListaPromocionesAsesorGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPListaPromocionesAsesorGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPMedidaModeloGetFilterData:
+    post:
+      tags:
+        - WPMedidaModeloGetFilterData
+      operationId: "WPMedidaModeloGetFilterData"
+      summary: "WPMedida Modelo Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPMedidaModeloGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPMedidaModeloGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPModeloGetFilterData:
+    post:
+      tags:
+        - WPModeloGetFilterData
+      operationId: "WPModeloGetFilterData"
+      summary: "WPModelo Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPModeloGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPModeloGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPMotivoRechazoGetFilterData:
+    post:
+      tags:
+        - WPMotivoRechazoGetFilterData
+      operationId: "WPMotivoRechazoGetFilterData"
+      summary: "WPMotivo Rechazo Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPMotivoRechazoGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPMotivoRechazoGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPPaisGetFilterData:
+    post:
+      tags:
+        - WPPaisGetFilterData
+      operationId: "WPPaisGetFilterData"
+      summary: "WPPais Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPPaisGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPPaisGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPPromocionGetFilterData:
+    post:
+      tags:
+        - WPPromocionGetFilterData
+      operationId: "WPPromocionGetFilterData"
+      summary: "WPPromocion Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPPromocionGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPPromocionGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPPuestoGetFilterData:
+    post:
+      tags:
+        - WPPuestoGetFilterData
+      operationId: "WPPuestoGetFilterData"
+      summary: "WPPuesto Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPPuestoGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPPuestoGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPUsuarioDetalleFacturaWCGetFilterData:
+    post:
+      tags:
+        - WPUsuarioDetalleFacturaWCGetFilterData
+      operationId: "WPUsuarioDetalleFacturaWCGetFilterData"
+      summary: "WPUsuario Detalle Factura WCGet Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPUsuarioDetalleFacturaWCGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPUsuarioDetalleFacturaWCGetFilterDataOutput"
+        404:
+          description: "Not found"
+  /WPUsuarioGetFilterData:
+    post:
+      tags:
+        - WPUsuarioGetFilterData
+      operationId: "WPUsuarioGetFilterData"
+      summary: "WPUsuario Get Filter Data"
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WPUsuarioGetFilterDataInput"
+      responses:
+        200:
+          description: "Successful operation"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WPUsuarioGetFilterDataOutput"
+        404:
+          description: "Not found"
+components:
+  schemas:
+    EstadoLoadDVComboOutput:
+      properties:
+        SelectedValue:
+          type: "string"
+        SelectedText:
+          type: "string"
+        Combo_DataJson:
+          type: "string"
+    EstadoWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    GetCantidadPorEstatusFiltradoNewOutput:
+      properties:
+        Cantidad:
+          type: "integer"
+          format: "int64"
+    ObtieneValorDirectivaOutput:
+      properties:
+        TrnDirectivaValue:
+          type: "string"
+    PaisWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    PromocionWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    TestAgregarParticipanteLoadDVComboOutput:
+      properties:
+        Combo_DataJson:
+          type: "string"
+    TestJWTOutput:
+      properties:
+        responseHtml:
+          type: "string"
+        token:
+          type: "string"
+    TrnDirectivaWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WCPartidasFacturaGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WorkWithPlus.WWP_ParameterWWGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPActualizarInfoUsuarioLoadDVComboOutput:
+      properties:
+        Combo_DataJson:
+          type: "string"
+    WPAgregarParticipanteLoadDVComboOutput:
+      properties:
+        Combo_DataJson:
+          type: "string"
+    WPAgregarUsuarioLoadDVComboOutput:
+      properties:
+        Combo_DataJson:
+          type: "string"
+    WPChartsFacturasGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPCiudadGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPDetallePromocionAdminFacturaWCGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPDistribuidoresAsesorGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPDistribuidorGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPEscolaridadGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPEstadoGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPFacturaMedidaGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPFacturasAsesGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPFacturasGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPFacturasPartGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPFacturasPromoPartGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPFacturaWizardLoadDVComboOutput:
+      properties:
+        Combo_DataJson:
+          type: "string"
+    WPListaAsesoresAsignadosGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPListaAsesoresGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPListaParticipantesGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPListaPromocionesAsesorGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPMedidaModeloGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPModeloGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPMotivoRechazoGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPPaisGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPPromocionGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPPuestoGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPUsuarioDetalleFacturaWCGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    WPUsuarioGetFilterDataOutput:
+      properties:
+        OptionsJson:
+          type: "string"
+        OptionsDescJson:
+          type: "string"
+        OptionIndexesJson:
+          type: "string"
+    ActualizarSegmentoPromocionInput:  
+      properties:
+        PromocionID:
+          type: "integer"
+          format: "int64"
+        SDTSegmentosGuardados:
+          description: "SDTSegmentos"
+          type: array
+          items:
+            $ref: "#/components/schemas/SDTSegmentos_Segmento"
+    EstadoLoadDVComboInput:  
+      properties:
+        ComboName:
+          type: "string"
+        TrnMode:
+          type: "string"
+        IsDynamicCall:
+          type: "boolean"
+        EstadoID:
+          type: "integer"
+          format: "int64"
+        SearchTxtParms:
+          type: "string"
+    EstadoWWGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    GetCantidadPorEstatusFiltradoNewInput:  
+      properties:
+        Estatus:
+          type: "string"
+        FromDate:
+          type: "string"
+          format: "date"
+        ToDate:
+          type: "string"
+          format: "date"
+        ListaUsuarioID:
+          type: array
+          items:
+            type: "integer"
+            format: "int64"
+        PromocionID:
+          type: array
+          items:
+            type: "integer"
+            format: "int64"
+        FacturaNo:
+          type: "string"
+        FiltroEstatus:
+          type: "string"
+    MostrarFacturaPDFInput:  
+      properties:
+        FacturaId:
+          type: "integer"
+          format: "int64"
+    ObtieneValorDirectivaInput:  
+      properties:
+        TrnDirectivaTitle:
+          type: "string"
+    PaisWWGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    PromocionWWGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    TestAgregarParticipanteLoadDVComboInput:  
+      properties:
+        ComboName:
+          type: "string"
+        Cond_PaisID:
+          type: "integer"
+          format: "int64"
+        Cond_EstadoID:
+          type: "integer"
+          format: "int64"
+        SearchTxtParms:
+          type: "string"
+    TrnDirectivaWWGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WCPartidasFacturaGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WorkWithPlus.WWP_ParameterWWGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPActualizarInfoUsuarioLoadDVComboInput:  
+      properties:
+        ComboName:
+          type: "string"
+        Cond_PaisID:
+          type: "integer"
+          format: "int64"
+        Cond_EstadoID:
+          type: "integer"
+          format: "int64"
+        SearchTxtParms:
+          type: "string"
+    WPAgregarParticipanteLoadDVComboInput:  
+      properties:
+        ComboName:
+          type: "string"
+        Cond_PaisID:
+          type: "integer"
+          format: "int64"
+        Cond_EstadoID:
+          type: "integer"
+          format: "int64"
+        SearchTxtParms:
+          type: "string"
+    WPAgregarUsuarioLoadDVComboInput:  
+      properties:
+        ComboName:
+          type: "string"
+        Cond_PaisID:
+          type: "integer"
+          format: "int64"
+        Cond_EstadoID:
+          type: "integer"
+          format: "int64"
+        SearchTxtParms:
+          type: "string"
+    WPChartsFacturasGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPCiudadGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPDetallePromocionAdminFacturaWCGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPDistribuidoresAsesorGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPDistribuidorGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPEscolaridadGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPEstadoGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPFacturaMedidaGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPFacturasAsesGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPFacturasGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPFacturasPartGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPFacturasPromoPartGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPFacturaWizardLoadDVComboInput:  
+      properties:
+        ComboName:
+          type: "string"
+        Cond_SelecPromo_PromocionID:
+          type: "integer"
+          format: "int64"
+        SearchTxtParms:
+          type: "string"
+    WPListaAsesoresAsignadosGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPListaAsesoresGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPListaParticipantesGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPListaPromocionesAsesorGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPMedidaModeloGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPModeloGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPMotivoRechazoGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPPaisGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPPromocionGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPPuestoGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPUsuarioDetalleFacturaWCGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    WPUsuarioGetFilterDataInput:  
+      properties:
+        DDOName:
+          type: "string"
+        SearchTxtParms:
+          type: "string"
+        SearchTxtTo:
+          type: "string"
+    SDTFacturaEstatus_SDTFacturaEstatusItem:
+      properties:
+        Estatus:
+          description: "Estatus"
+          type: "string"
+        Cantidad:
+          description: "Cantidad"
+          type: "integer"
+          format: "int64"
+    SDTGraficaFacturasPorMes_SDTGraficaFacturasPorMesItem:
+      properties:
+        Mes:
+          description: "Mes"
+          type: "string"
+        MontoAprobada:
+          description: "Monto Aprobada"
+          type: "number"
+          format: "double"
+        MontoRechazada:
+          description: "Monto Rechazada"
+          type: "number"
+          format: "double"
+        MontoEnProceso:
+          description: "Monto En Proceso"
+          type: "number"
+          format: "double"
+    SDTGraficaModelos_SDTGraficaModelosItem:
+      properties:
+        ModeloDescripcion:
+          description: "Modelos"
+          type: "string"
+        Total:
+          description: "Total"
+          type: "number"
+          format: "double"
+    SDTMotivoRechazoGrafico_SDTMotivoRechazoItem:
+      properties:
+        MotivoRechazoDescripcion:
+          description: "Motivo de rechazo"
+          type: "string"
+        Cantidad:
+          description: "Cantidad"
+          type: "integer"
+          format: "int64"
+    SDTSegmentos_Segmento:
+      properties:
+        Segmento:
+          description: "Segmento"
+          type: "string"

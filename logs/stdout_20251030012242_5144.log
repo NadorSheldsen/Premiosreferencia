@@ -1,0 +1,1317 @@
+warn: Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository[50]
+      Using an in-memory repository. Keys will not be persisted to storage.
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[59]
+      Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+warn: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[16]
+      The WebRootPath was not found: C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wwwroot. Static files may be unavailable.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[58]
+      Creating key {ef298e4c-c24a-48ec-8801-85e3bf8694ff} with creation date 2025-10-30 01:22:43Z, activation date 2025-10-30 01:22:43Z, and expiration date 2026-01-28 01:22:43Z.
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {ef298e4c-c24a-48ec-8801-85e3bf8694ff} may be persisted to storage in unencrypted form.
+Hosting environment: Production
+Content root path: C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx
+Now listening on: http://127.0.0.1:24678
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/inicio.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/inicio.aspx - - -
+info: Microsoft.AspNetCore.Session.DistributedSession[3]
+      Session started; Key:2a9ade2a-fb09-b812-0459-60ccbdd5d595, Id:e053329f-f47b-a2ed-37c0-a0499bf0cd16
+info: Microsoft.AspNetCore.Session.DistributedSession[3]
+      Session started; Key:75181e04-2508-d476-58db-25eff4e92a6d, Id:f6cd9ec0-0091-f0bb-8d1f-2912fbede179
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/inicio.aspx - 301 - - 854.5725ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/inicio.aspx - 301 - - 1977.5990ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/login.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/login.aspx - 200 - text/html 1535.7139ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/DVMessage/DVMessage.css?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/bootstrap/css/bootstrap.min.css?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Bootstrap/Shared/fontawesome_vlatest/css/all.min.css?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/DVMessage/DVMessage.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\DVMessage\DVMessage.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/DVMessage/DVMessage.css?202510281546477 - 200 - text/css 32.1025ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/bootstrap/css/bootstrap.min.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\bootstrap\css\bootstrap.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Bootstrap/Shared/fontawesome_vlatest/css/all.min.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Bootstrap\Shared\fontawesome_vlatest\css\all.min.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/bootstrap/css/bootstrap.min.css?202510281546477 - 200 - text/css 35.2701ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Bootstrap/Shared/fontawesome_vlatest/css/all.min.css?202510281546477 - 200 - text/css 35.1855ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Bootstrap/Shared/DVelopBootstrap.css?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Bootstrap/Shared/DVelopBootstrap.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Bootstrap\Shared\DVelopBootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Bootstrap/Shared/DVelopBootstrap.css?202510281546477 - 200 - text/css 22.0400ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Shared/daterangepicker/daterangepicker.css?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/calendar-system.css?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Shared/daterangepicker/daterangepicker.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Shared\daterangepicker\daterangepicker.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Shared/daterangepicker/daterangepicker.css?202510281546477 - 200 - text/css 24.7164ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/WorkWithPlusDS.css?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/calendar-system.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\calendar-system.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/calendar-system.css?202510281546477 - 200 - text/css 18.1724ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/WorkWithPlusDS.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\WorkWithPlusDS.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/WorkWithPlusDS.css?202510281546477 - 200 - text/css 17.0387ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/jquery.js?1018140 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/bootstrap/js/bootstrap.min.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/gxgral.js?1018140 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/bootstrap/js/bootstrap.min.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\bootstrap\js\bootstrap.min.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/bootstrap/js/bootstrap.min.js?202510281546477 - 200 39680 text/javascript 94.4326ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/jquery.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/jquery.js?1018140 - 200 89664 text/javascript 144.3868ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/WWPBaseObjects.WorkWithPlusBaseDS.css - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/WWPBaseObjects.WorkWithPlusBaseDS.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\WWPBaseObjects.WorkWithPlusBaseDS.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/WWPBaseObjects.WorkWithPlusBaseDS.css - 200 - text/css 32.6173ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/gxgral.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\gxgral.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/gxgral.js?1018140 - 200 661977 text/javascript 455.4518ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/WorkWithPlusDS_Tokens.css - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/WorkWithPlusDS_Tokens.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\WorkWithPlusDS_Tokens.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/WorkWithPlusDS_Tokens.css - 200 - text/css 1.5675ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/gxcfg.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/ImageLogin.png - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/calendar.png - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/ImageLogin.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\ImageLogin.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/ImageLogin.png - 200 10715 image/png 1.9210ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/calendar.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\calendar.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/calendar.png - 200 629 image/png 15.3941ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/gxcfg.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\gxcfg.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/gxcfg.js?202510281546477 - 200 667 text/javascript 30.1586ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/AnyStyles.ImagesTokens.css - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/messages.spa.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/login.js?2025102815462243 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/AnyStyles.ImagesTokens.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\AnyStyles.ImagesTokens.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/WWPBaseObjects.WorkWithPlusBaseDS_Tokens.css - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/AnyStyles.ImagesTokens.css - 200 - text/css 20.2830ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/WWPBaseObjects.WorkWithPlusBaseDS_Tokens.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\WWPBaseObjects.WorkWithPlusBaseDS_Tokens.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/WWPBaseObjects.WorkWithPlusBaseDS_Tokens.css - 200 - text/css 17.3361ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/messages.spa.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\messages.spa.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/messages.spa.js?202510281546477 - 200 88022 text/javascript 37.2813ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\login.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/login.js?2025102815462243 - 200 10442 text/javascript 48.2340ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/calendar.js?1018140 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/calendar.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\calendar.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/calendar.js?1018140 - 200 26338 text/javascript 72.6710ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/calendar-setup.js?1018140 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/calendar-setup.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\calendar-setup.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/calendar-setup.js?1018140 - 200 3066 text/javascript 38.5353ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/calendar-es.js?1018140 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/DVMessage/pnotify.custom.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/calendar-es.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\calendar-es.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/calendar-es.js?1018140 - 200 2004 text/javascript 3.4942ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/DVMessage/pnotify.custom.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\DVMessage\pnotify.custom.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/DVMessage/pnotify.custom.js?202510281546477 - 200 31443 text/javascript 83.6931ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Shared/WorkWithPlusCommon.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/DVMessage/DVMessageRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Bootstrap/Tooltip/BootstrapTooltipRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Bootstrap/Tooltip/BootstrapTooltipRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Bootstrap\Tooltip\BootstrapTooltipRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Bootstrap/Tooltip/BootstrapTooltipRender.js?202510281546477 - 200 5931 text/javascript 2.9848ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/DVMessage/DVMessageRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\DVMessage\DVMessageRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/DVMessage/DVMessageRender.js?202510281546477 - 200 7929 text/javascript 3.6901ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Shared/WorkWithPlusCommon.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Shared\WorkWithPlusCommon.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Shared/WorkWithPlusCommon.js?202510281546477 - 200 26666 text/javascript 78.4136ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/WorkWithPlusUtilities/BootstrapSelect.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Mask/jquery.mask.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Mask/jquery.mask.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Mask\jquery.mask.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Mask/jquery.mask.js?202510281546477 - 200 7444 text/javascript 3.7901ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/WorkWithPlusUtilities/WorkWithPlusUtilitiesRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/WorkWithPlusUtilities/WorkWithPlusUtilitiesRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\WorkWithPlusUtilities\WorkWithPlusUtilitiesRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/WorkWithPlusUtilities/WorkWithPlusUtilitiesRender.js?202510281546477 - 200 29995 text/javascript 82.3921ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/WorkWithPlusUtilities/BootstrapSelect.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\WorkWithPlusUtilities\BootstrapSelect.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/WorkWithPlusUtilities/BootstrapSelect.js?202510281546477 - 200 52902 text/javascript 95.4194ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Shared/daterangepicker/locales.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Shared/daterangepicker/locales.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Shared\daterangepicker\locales.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Shared/daterangepicker/locales.js?202510281546477 - 200 3806 text/javascript 3.3394ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Shared/daterangepicker/wwp-daterangepicker.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Shared/daterangepicker/moment.min.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Shared/daterangepicker/wwp-daterangepicker.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Shared\daterangepicker\wwp-daterangepicker.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Shared/daterangepicker/wwp-daterangepicker.js?202510281546477 - 200 5777 text/javascript 3.3436ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Shared/daterangepicker/daterangepicker.min.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/DatePicker/DatePickerRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/DatePicker/DatePickerRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\DatePicker\DatePickerRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/DatePicker/DatePickerRender.js?202510281546477 - 200 3160 text/javascript 3.0593ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Shared/daterangepicker/moment.min.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Shared\daterangepicker\moment.min.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Shared/daterangepicker/moment.min.js?202510281546477 - 200 59101 text/javascript 119.7522ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Shared/daterangepicker/daterangepicker.min.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Shared\daterangepicker\daterangepicker.min.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Shared/daterangepicker/daterangepicker.min.js?202510281546477 - 200 62675 text/javascript 89.3761ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/UserControls/LoaderRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wwpbaseobjects/workwithplusmasterpageempty.js?2025102815462215 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/wwpbaseobjects/workwithplusmasterpageempty.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wwpbaseobjects\workwithplusmasterpageempty.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wwpbaseobjects/workwithplusmasterpageempty.js?2025102815462215 - 200 11030 text/javascript 40.9267ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/UserControls/LoaderRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\UserControls\LoaderRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/UserControls/LoaderRender.js?202510281546477 - 200 4616 text/javascript 98.7983ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/login.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/login.aspx - 200 - text/html 23.2752ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/Poppins-Regular.ttf - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/Poppins-Regular.ttf'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\Poppins-Regular.ttf'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/Poppins-Regular.ttf - 200 145312 application/x-font-ttf 16.5281ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/Poppins-Regular.ttf - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/Poppins-Regular.ttf'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\Poppins-Regular.ttf'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/Poppins-Regular.ttf - 200 145312 application/x-font-ttf 1.9002ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Favicon.png - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Favicon.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Favicon.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Favicon.png - 200 5579 image/png 15.8312ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/bootstrap/fonts/glyphicons-halflings-regular.woff2 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/bootstrap/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\bootstrap\fonts\glyphicons-halflings-regular.woff2'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/bootstrap/fonts/glyphicons-halflings-regular.woff2 - 200 18028 font/woff2 17.5026ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/login.aspx - - -
+info: Microsoft.AspNetCore.Session.DistributedSession[3]
+      Session started; Key:061f9a61-9e08-705c-4a39-153ea1ceecf4, Id:16f61189-d80d-fbe8-e062-2fe0b41e67e1
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/login.aspx - 200 - text/html 9.3507ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Bootstrap/Shared/DVelopBootstrap.css?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/DVMessage/DVMessage.css?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/DVMessage/DVMessage.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\DVMessage\DVMessage.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/DVMessage/DVMessage.css?202510281546477 - 200 - text/css 0.9180ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/calendar-system.css?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Bootstrap/Shared/DVelopBootstrap.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Bootstrap\Shared\DVelopBootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Bootstrap/Shared/DVelopBootstrap.css?202510281546477 - 200 - text/css 78.6831ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/calendar-system.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\calendar-system.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/calendar-system.css?202510281546477 - 200 - text/css 0.6879ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/jquery.js?1018140 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Bootstrap/Shared/fontawesome_vlatest/css/all.min.css?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/jquery.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/jquery.js?1018140 - 200 89664 text/javascript 3.6105ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/bootstrap/css/bootstrap.min.css?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Shared/daterangepicker/daterangepicker.css?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Shared/daterangepicker/daterangepicker.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Shared\daterangepicker\daterangepicker.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Shared/daterangepicker/daterangepicker.css?202510281546477 - 200 - text/css 1.9271ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/WorkWithPlusDS.css?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/WorkWithPlusDS.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\WorkWithPlusDS.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/WorkWithPlusDS.css?202510281546477 - 200 - text/css 0.7307ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Bootstrap/Shared/fontawesome_vlatest/css/all.min.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Bootstrap\Shared\fontawesome_vlatest\css\all.min.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Bootstrap/Shared/fontawesome_vlatest/css/all.min.css?202510281546477 - 200 - text/css 3.9167ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/bootstrap/css/bootstrap.min.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\bootstrap\css\bootstrap.min.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/bootstrap/css/bootstrap.min.css?202510281546477 - 200 - text/css 4.2396ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/ImageLogin.png - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/ImageLogin.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\ImageLogin.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/ImageLogin.png - 200 10715 image/png 0.9620ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/gxgral.js?1018140 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/bootstrap/js/bootstrap.min.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/calendar.png - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/calendar.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\calendar.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/calendar.png - 200 629 image/png 1.2742ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/bootstrap/js/bootstrap.min.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\bootstrap\js\bootstrap.min.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/bootstrap/js/bootstrap.min.js?202510281546477 - 200 39680 text/javascript 1.7783ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/gxgral.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\gxgral.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/gxgral.js?1018140 - 200 661977 text/javascript 4.4298ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/gxcfg.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/gxcfg.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\gxcfg.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/gxcfg.js?202510281546477 - 200 667 text/javascript 0.7058ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/WWPBaseObjects.WorkWithPlusBaseDS.css - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/WWPBaseObjects.WorkWithPlusBaseDS.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\WWPBaseObjects.WorkWithPlusBaseDS.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/WWPBaseObjects.WorkWithPlusBaseDS.css - 200 - text/css 6.2607ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/WorkWithPlusDS_Tokens.css - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/WorkWithPlusDS_Tokens.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\WorkWithPlusDS_Tokens.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/WorkWithPlusDS_Tokens.css - 200 - text/css 0.6952ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/messages.spa.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/messages.spa.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\messages.spa.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/messages.spa.js?202510281546477 - 200 88022 text/javascript 1.3539ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/AnyStyles.ImagesTokens.css - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/AnyStyles.ImagesTokens.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\AnyStyles.ImagesTokens.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/AnyStyles.ImagesTokens.css - 200 - text/css 1.2510ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/WWPBaseObjects.WorkWithPlusBaseDS_Tokens.css - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/WWPBaseObjects.WorkWithPlusBaseDS_Tokens.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\WWPBaseObjects.WorkWithPlusBaseDS_Tokens.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/WWPBaseObjects.WorkWithPlusBaseDS_Tokens.css - 200 - text/css 1.1130ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/login.js?2025102815462243 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\login.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/login.js?2025102815462243 - 200 10442 text/javascript 0.9121ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/calendar.js?1018140 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/calendar.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\calendar.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/calendar.js?1018140 - 200 26338 text/javascript 1.1062ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/login.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787429535 - application/json 250
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/calendar-setup.js?1018140 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/calendar-setup.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\calendar-setup.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/calendar-setup.js?1018140 - 200 3066 text/javascript 0.9959ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Shared/WorkWithPlusCommon.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Shared/WorkWithPlusCommon.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Shared\WorkWithPlusCommon.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Shared/WorkWithPlusCommon.js?202510281546477 - 200 26666 text/javascript 1.0527ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Bootstrap/Tooltip/BootstrapTooltipRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Bootstrap/Tooltip/BootstrapTooltipRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Bootstrap\Tooltip\BootstrapTooltipRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Bootstrap/Tooltip/BootstrapTooltipRender.js?202510281546477 - 200 5931 text/javascript 0.5756ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/calendar-es.js?1018140 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/DVMessage/pnotify.custom.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/calendar-es.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\calendar-es.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/calendar-es.js?1018140 - 200 2004 text/javascript 0.8140ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/DVMessage/pnotify.custom.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\DVMessage\pnotify.custom.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/DVMessage/pnotify.custom.js?202510281546477 - 200 31443 text/javascript 0.8644ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/WorkWithPlusUtilities/BootstrapSelect.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Mask/jquery.mask.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/DVMessage/DVMessageRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/WorkWithPlusUtilities/BootstrapSelect.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\WorkWithPlusUtilities\BootstrapSelect.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/WorkWithPlusUtilities/BootstrapSelect.js?202510281546477 - 200 52902 text/javascript 0.9535ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Mask/jquery.mask.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Mask\jquery.mask.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Mask/jquery.mask.js?202510281546477 - 200 7444 text/javascript 0.7987ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/DVMessage/DVMessageRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\DVMessage\DVMessageRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/DVMessage/DVMessageRender.js?202510281546477 - 200 7929 text/javascript 0.7205ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/WorkWithPlusUtilities/WorkWithPlusUtilitiesRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/WorkWithPlusUtilities/WorkWithPlusUtilitiesRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\WorkWithPlusUtilities\WorkWithPlusUtilitiesRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/WorkWithPlusUtilities/WorkWithPlusUtilitiesRender.js?202510281546477 - 200 29995 text/javascript 0.7700ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Shared/daterangepicker/locales.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Shared/daterangepicker/locales.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Shared\daterangepicker\locales.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Shared/daterangepicker/locales.js?202510281546477 - 200 3806 text/javascript 0.9782ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/login.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787429535 - 200 - application/json 916.6426ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Shared/daterangepicker/moment.min.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Shared/daterangepicker/moment.min.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Shared\daterangepicker\moment.min.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Shared/daterangepicker/moment.min.js?202510281546477 - 200 59101 text/javascript 1.2825ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wwpbaseobjects/workwithplusmasterpageempty.js?2025102815462215 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/wwpbaseobjects/workwithplusmasterpageempty.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wwpbaseobjects\workwithplusmasterpageempty.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wwpbaseobjects/workwithplusmasterpageempty.js?2025102815462215 - 200 11030 text/javascript 0.9057ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Shared/daterangepicker/wwp-daterangepicker.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Shared/daterangepicker/wwp-daterangepicker.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Shared\daterangepicker\wwp-daterangepicker.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Shared/daterangepicker/wwp-daterangepicker.js?202510281546477 - 200 5777 text/javascript 0.8235ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/UserControls/LoaderRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Shared/daterangepicker/daterangepicker.min.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/UserControls/LoaderRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\UserControls\LoaderRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/UserControls/LoaderRender.js?202510281546477 - 200 4616 text/javascript 0.6072ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/DatePicker/DatePickerRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Shared/daterangepicker/daterangepicker.min.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Shared\daterangepicker\daterangepicker.min.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Shared/daterangepicker/daterangepicker.min.js?202510281546477 - 200 62675 text/javascript 0.8660ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/DatePicker/DatePickerRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\DatePicker\DatePickerRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/DatePicker/DatePickerRender.js?202510281546477 - 200 3160 text/javascript 0.5784ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/inicio.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/login.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/login.aspx - 200 - text/html 7.3965ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/Poppins-Regular.ttf - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/Poppins-Regular.ttf'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\Poppins-Regular.ttf'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/Poppins-Regular.ttf - 200 145312 application/x-font-ttf 1.3752ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/Poppins-Regular.ttf - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/Poppins-Regular.ttf'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\Poppins-Regular.ttf'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/Poppins-Regular.ttf - 200 145312 application/x-font-ttf 1.3962ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/bootstrap/fonts/glyphicons-halflings-regular.woff2 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/bootstrap/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\bootstrap\fonts\glyphicons-halflings-regular.woff2'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/bootstrap/fonts/glyphicons-halflings-regular.woff2 - 200 18028 font/woff2 1.1817ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/inicio.aspx - 200 - text/html 845.4346ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Bootstrap/Shared/DVelopBootstrap.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/ImageMasterLight.png - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/ImageMasterLight.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\ImageMasterLight.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/ImageMasterLight.png - 200 2420 image/png 16.1877ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Bootstrap/Shared/DVelopBootstrap.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Bootstrap\Shared\DVelopBootstrap.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Bootstrap/Shared/DVelopBootstrap.js?202510281546477 - 200 167760 text/javascript 153.3438ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Bootstrap/Panel/BootstrapPanelRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Bootstrap/Panel/BootstrapPanelRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Bootstrap\Panel\BootstrapPanelRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Bootstrap/Panel/BootstrapPanelRender.js?202510281546477 - 200 847 text/javascript 49.9124ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/QueryViewer/QueryViewerCommon.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/QueryViewer/QueryViewerCommon.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\QueryViewer\QueryViewerCommon.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/QueryViewer/QueryViewerCommon.js?202510281546477 - 200 167854 text/javascript 131.8321ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/QueryViewer/QueryViewerRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/QueryViewer/QueryViewerRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\QueryViewer\QueryViewerRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/QueryViewer/QueryViewerRender.js?202510281546477 - 200 10787 text/javascript 77.3308ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/inicio.js?2025102815462732 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/inicio.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\inicio.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/inicio.js?2025102815462732 - 200 1276 text/javascript 55.1045ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/home.js?2025102815461882 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/home.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\home.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/home.js?2025102815461882 - 200 20692 text/javascript 42.2235ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Bootstrap/DropDownOptions/BootstrapDropDownOptionsRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Bootstrap/DropDownOptions/BootstrapDropDownOptionsRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Bootstrap\DropDownOptions\BootstrapDropDownOptionsRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Bootstrap/DropDownOptions/BootstrapDropDownOptionsRender.js?202510281546477 - 200 29967 text/javascript 72.9782ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Bootstrap/Shared/slimscroll/jquery.slimscroll.min.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Bootstrap/Shared/slimscroll/jquery.slimscroll.min.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Bootstrap\Shared\slimscroll\jquery.slimscroll.min.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Bootstrap/Shared/slimscroll/jquery.slimscroll.min.js?202510281546477 - 200 4736 text/javascript 3.8684ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Bootstrap/SidebarMenu/BootstrapSidebarMenuRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Bootstrap/SidebarMenu/BootstrapSidebarMenuRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Bootstrap\SidebarMenu\BootstrapSidebarMenuRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Bootstrap/SidebarMenu/BootstrapSidebarMenuRender.js?202510281546477 - 200 19861 text/javascript 84.5760ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wwpbaseobjects/workwithplusmasterpage.js?2025102815462344 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/wwpbaseobjects/workwithplusmasterpage.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wwpbaseobjects\workwithplusmasterpage.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wwpbaseobjects/workwithplusmasterpage.js?2025102815462344 - 200 20509 text/javascript 50.1368ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/BackgroundImage2.png - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/BackgroundImage2.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\BackgroundImage2.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/BackgroundImage2.png - 200 581900 image/png 4.7569ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/QueryViewer/QueryViewer.css - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/QueryViewer/QueryViewer.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\QueryViewer\QueryViewer.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/QueryViewer/QueryViewer.css - 200 - text/css 3.3208ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/QueryViewer/highcharts/css/highcharts.css - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/QueryViewer/highcharts/css/highcharts.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\QueryViewer\highcharts\css\highcharts.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/QueryViewer/highcharts/css/highcharts.css - 200 - text/css 24.9898ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/QueryViewer/highcharts/highcharts.js - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/UserInfoSmall.png - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/EnglishIcon.png - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/UserInfoSmall.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\UserInfoSmall.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/UserInfoSmall.png - 200 477 image/png 18.3166ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/EnglishIcon.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\EnglishIcon.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/EnglishIcon.png - 200 706 image/png 15.6559ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/SpanishIcon.png - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/SpanishIcon.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\SpanishIcon.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/SpanishIcon.png - 200 603 image/png 13.8008ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Bootstrap/Shared/fontawesome_vlatest/webfonts/fa-solid-900.woff2 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/Spanish/Poppins-SemiBold.ttf - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Bootstrap/Shared/fontawesome_vlatest/webfonts/fa-solid-900.woff2'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Bootstrap\Shared\fontawesome_vlatest\webfonts\fa-solid-900.woff2'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/Spanish/Poppins-SemiBold.ttf'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\Spanish\Poppins-SemiBold.ttf'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Bootstrap/Shared/fontawesome_vlatest/webfonts/fa-solid-900.woff2 - 200 113108 font/woff2 16.0700ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/Spanish/Poppins-SemiBold.ttf - 200 155232 application/x-font-ttf 16.1635ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/QueryViewer/indicator.gif - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/QueryViewer/indicator.gif'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\QueryViewer\indicator.gif'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/QueryViewer/indicator.gif - 200 8581 image/gif 2.9181ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/QueryViewer/fonts/SourceSansPro-Regular.ttf - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/QueryViewer/fonts/SourceSansPro-Regular.ttf'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\QueryViewer\fonts\SourceSansPro-Regular.ttf'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/QueryViewer/fonts/SourceSansPro-Regular.ttf - 200 293516 application/x-font-ttf 18.4960ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/QueryViewer/highcharts/highcharts.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\QueryViewer\highcharts\highcharts.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/QueryViewer/highcharts/highcharts.js - 200 289539 text/javascript 246.7541ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/QueryViewer/highcharts/highcharts-3d.js - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/QueryViewer/highcharts/highcharts-3d.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\QueryViewer\highcharts\highcharts-3d.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/QueryViewer/highcharts/highcharts-3d.js - 200 48778 text/javascript 103.6603ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/QueryViewer/highcharts/highcharts-more.js - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/QueryViewer/highcharts/highcharts-more.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\QueryViewer\highcharts\highcharts-more.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/QueryViewer/highcharts/highcharts-more.js - 200 97119 text/javascript 126.9913ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/QueryViewer/highcharts/modules/funnel.js - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/QueryViewer/highcharts/modules/funnel.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\QueryViewer\highcharts\modules\funnel.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/QueryViewer/highcharts/modules/funnel.js - 200 5503 text/javascript 3.3672ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/QueryViewer/highcharts/modules/solid-gauge.js - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/QueryViewer/highcharts/modules/solid-gauge.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\QueryViewer\highcharts\modules\solid-gauge.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/QueryViewer/highcharts/modules/solid-gauge.js - 200 4635 text/javascript 3.2216ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787436681 - application/x-www-form-urlencoded 212
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787436681 - 200 - text/plain;+charset=utf-8 43.1920ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787436682 - application/x-www-form-urlencoded 205
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787436682 - application/x-www-form-urlencoded 211
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787436682 - 200 - text/plain;+charset=utf-8 3.5642ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787436682 - 200 - text/plain;+charset=utf-8 2.5465ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787436977 - application/x-www-form-urlencoded 595
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787436980 - application/x-www-form-urlencoded 594
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787436979 - application/x-www-form-urlencoded 588
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787436979 - 200 - text/xml;+charset=utf-8 150.7989ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787436980 - 200 - text/xml;+charset=utf-8 151.6785ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787436977 - 200 - text/xml;+charset=utf-8 170.9447ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787437421 - application/x-www-form-urlencoded 560
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787437417 - application/x-www-form-urlencoded 567
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787437427 - application/x-www-form-urlencoded 566
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787437417 - 200 - text/xml;+charset=utf-8 627.1239ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787437421 - 200 - text/xml;+charset=utf-8 638.2253ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787437427 - 200 - text/xml;+charset=utf-8 620.1152ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpfacturasnew.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpfacturasnew.aspx - 200 - text/html 5102.2836ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/DVPaginationBar/DVPaginationBarRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/ActionExport.png - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/ActionExport.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\ActionExport.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/ActionExport.png - 200 1684 image/png 18.4196ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/DVPaginationBar/DVPaginationBarRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\DVPaginationBar\DVPaginationBarRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/DVPaginationBar/DVPaginationBarRender.js?202510281546477 - 200 15712 text/javascript 81.9848ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/GridEmpowerer/GridEmpowererRender.js?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/GridEmpowerer/GridEmpowererRender.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\GridEmpowerer\GridEmpowererRender.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/GridEmpowerer/GridEmpowererRender.js?202510281546477 - 200 59453 text/javascript 98.7708ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wcpartidasfacturanew.js?2025102815461654 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/wcpartidasfacturanew.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wcpartidasfacturanew.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wcpartidasfacturanew.js?2025102815461654 - 200 25909 text/javascript 73.8119ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/gxdec.js?1018140 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/gxdec.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\gxdec.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/gxdec.js?1018140 - 200 19296 text/javascript 64.6905ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpfacturasnew.js?2025102815463899 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/wpfacturasnew.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wpfacturasnew.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpfacturasnew.js?2025102815463899 - 200 113303 text/javascript 87.5396ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/DVPaginationBar/DVPaginationBar.css?202510281546477 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/DVPaginationBar/DVPaginationBar.css'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\DVPaginationBar\DVPaginationBar.css'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/DVPaginationBar/DVPaginationBar.css?202510281546477 - 200 - text/css 3.6402ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/iconoPDF.png - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/iconoPDF.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\iconoPDF.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/iconoPDF.png - 200 13096 image/png 1.0968ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787449376 - application/x-www-form-urlencoded 146
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787449376 - 200 - text/plain;+charset=utf-8 2.0448ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787449385 - application/x-www-form-urlencoded 153
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787449385 - 200 - text/plain;+charset=utf-8 1.3474ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/asc.gif - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/desc.gif - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/asc.gif'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\asc.gif'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/asc.gif - 200 67 image/gif 14.1667ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/desc.gif'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\desc.gif'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/desc.gif - 200 65 image/gif 11.4874ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787449591 - application/x-www-form-urlencoded 2217
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787449591 - 200 - text/xml;+charset=utf-8 10.9790ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787449594 - application/x-www-form-urlencoded 2224
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787449594 - 200 - text/xml;+charset=utf-8 9.0811ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787449740 - application/x-www-form-urlencoded 2189
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787449751 - application/x-www-form-urlencoded 2196
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787449751 - 200 - text/xml;+charset=utf-8 205.0226ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787449740 - 200 - text/xml;+charset=utf-8 268.7717ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787483184 - application/json 4350
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787483184 - 200 - application/json 111.6908ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787483671 - application/x-www-form-urlencoded 146
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787483671 - 200 - text/plain;+charset=utf-8 1.5770ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787483674 - application/x-www-form-urlencoded 153
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787483674 - 200 - text/plain;+charset=utf-8 1.2971ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787483851 - application/x-www-form-urlencoded 2267
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787483851 - 200 - text/xml;+charset=utf-8 3.0277ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787483870 - application/x-www-form-urlencoded 2274
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787483870 - 200 - text/xml;+charset=utf-8 3.1767ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787484002 - application/x-www-form-urlencoded 2239
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787484023 - application/x-www-form-urlencoded 2246
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787484002 - 200 - text/xml;+charset=utf-8 9.6927ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787484023 - 200 - text/xml;+charset=utf-8 25.0313ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/prompt.png - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/prompt.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\prompt.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/prompt.png - 200 684 image/png 19.1433ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/DVelop/Bootstrap/Shared/fontawesome_vlatest/webfonts/fa-regular-400.woff2 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/DVelop/Bootstrap/Shared/fontawesome_vlatest/webfonts/fa-regular-400.woff2'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\DVelop\Bootstrap\Shared\fontawesome_vlatest\webfonts\fa-regular-400.woff2'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/DVelop/Bootstrap/Shared/fontawesome_vlatest/webfonts/fa-regular-400.woff2 - 200 18892 font/woff2 17.0907ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787498836 - application/json 224
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787498836 - 200 - application/json 3.0218ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787500093 - application/json 4125
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787500093 - 200 - application/json 34.2175ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787500351 - application/x-www-form-urlencoded 146
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787500351 - 200 - text/plain;+charset=utf-8 1.4506ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787500360 - application/x-www-form-urlencoded 153
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787500360 - 200 - text/plain;+charset=utf-8 1.2090ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787500569 - application/x-www-form-urlencoded 2268
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787500569 - 200 - text/xml;+charset=utf-8 2.6080ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787500572 - application/x-www-form-urlencoded 2275
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787500572 - 200 - text/xml;+charset=utf-8 2.1084ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787500773 - application/x-www-form-urlencoded 2240
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787500773 - 200 - text/xml;+charset=utf-8 8.6062ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787500776 - application/x-www-form-urlencoded 2247
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787500776 - 200 - text/xml;+charset=utf-8 24.4882ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/inicio.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/inicio.aspx - 200 - text/html 13.3328ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787505639 - application/x-www-form-urlencoded 212
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787505639 - 200 - text/plain;+charset=utf-8 1.3202ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787505634 - application/x-www-form-urlencoded 211
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787505631 - application/x-www-form-urlencoded 205
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787505634 - 200 - text/plain;+charset=utf-8 0.6777ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787505631 - 200 - text/plain;+charset=utf-8 1.2130ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787505960 - application/x-www-form-urlencoded 588
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787505960 - 200 - text/xml;+charset=utf-8 2.1461ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787505958 - application/x-www-form-urlencoded 594
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787505954 - application/x-www-form-urlencoded 595
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787505958 - 200 - text/xml;+charset=utf-8 2.2537ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787505954 - 200 - text/xml;+charset=utf-8 2.3416ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787506310 - application/x-www-form-urlencoded 560
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787506310 - 200 - text/xml;+charset=utf-8 18.9625ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787506319 - application/x-www-form-urlencoded 567
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787506314 - application/x-www-form-urlencoded 566
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787506319 - 200 - text/xml;+charset=utf-8 25.8613ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787506314 - 200 - text/xml;+charset=utf-8 64.0134ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpfacturasnew.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpfacturasnew.aspx - 200 - text/html 702.9091ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787513742 - application/x-www-form-urlencoded 146
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787513742 - 200 - text/plain;+charset=utf-8 1.6496ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787513744 - application/x-www-form-urlencoded 153
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787513744 - 200 - text/plain;+charset=utf-8 0.8015ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787513980 - application/x-www-form-urlencoded 2217
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787513980 - 200 - text/xml;+charset=utf-8 2.6916ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787513989 - application/x-www-form-urlencoded 2224
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787513989 - 200 - text/xml;+charset=utf-8 2.6914ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wppromocion.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787514110 - application/x-www-form-urlencoded 2189
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787514141 - application/x-www-form-urlencoded 2196
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787514110 - 200 - text/xml;+charset=utf-8 57.9996ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787514141 - 200 - text/xml;+charset=utf-8 57.2599ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wppromocion.aspx - 200 - text/html 2160.6788ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wppromociongridview.js?202510281546215 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/wppromociongridview.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wppromociongridview.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wppromociongridview.js?202510281546215 - 200 30550 text/javascript 63.5998ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wppromocion.js?2025102815462571 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/wppromocion.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wppromocion.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wppromocion.js?2025102815462571 - 200 18798 text/javascript 43.2435ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wppromocion.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787517428 - application/json 399
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wppromocion.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787517428 - 200 - application/json 22.7790ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpfacturasnew.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpfacturasnew.aspx - 200 - text/html 405.1805ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787521374 - application/x-www-form-urlencoded 146
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787521374 - 200 - text/plain;+charset=utf-8 1.4097ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787521376 - application/x-www-form-urlencoded 153
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787521376 - 200 - text/plain;+charset=utf-8 2.6180ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787521568 - application/x-www-form-urlencoded 2217
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787521576 - application/x-www-form-urlencoded 2224
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787521568 - 200 - text/xml;+charset=utf-8 19.6787ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787521576 - 200 - text/xml;+charset=utf-8 16.6654ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787521796 - application/x-www-form-urlencoded 2189
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787521796 - 200 - text/xml;+charset=utf-8 23.4598ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787521802 - application/x-www-form-urlencoded 2196
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787521802 - 200 - text/xml;+charset=utf-8 25.5527ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787544314 - application/json 4326
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787544314 - 200 - application/json 13911.1248ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787571077 - application/x-www-form-urlencoded 146
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787571077 - 200 - text/plain;+charset=utf-8 1.5165ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787571101 - application/x-www-form-urlencoded 153
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787571101 - 200 - text/plain;+charset=utf-8 25.1573ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787706349 - application/x-www-form-urlencoded 2253
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787706402 - application/x-www-form-urlencoded 2260
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787706349 - 200 - text/xml;+charset=utf-8 19.0160ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761787706402 - 200 - text/xml;+charset=utf-8 18.7398ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787707491 - application/x-www-form-urlencoded 2232
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761787707484 - application/x-www-form-urlencoded 2225
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787707484 - 200 - text/xml;+charset=utf-8 93.6587ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761787707491 - 200 - text/xml;+charset=utf-8 628.8428ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787899302 - application/json 4360
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761787899302 - 200 - application/json 9359.7312ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787925806 - application/x-www-form-urlencoded 146
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787925806 - 200 - text/plain;+charset=utf-8 1.5678ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787925831 - application/x-www-form-urlencoded 153
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761787925831 - 200 - text/plain;+charset=utf-8 1.9884ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788078305 - application/x-www-form-urlencoded 2267
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788078351 - application/x-www-form-urlencoded 2274
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788078305 - 200 - text/xml;+charset=utf-8 17.0965ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788078351 - 200 - text/xml;+charset=utf-8 16.3022ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788079402 - application/x-www-form-urlencoded 2239
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788079429 - application/x-www-form-urlencoded 2246
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788079402 - 200 - text/xml;+charset=utf-8 18.6734ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788079429 - 200 - text/xml;+charset=utf-8 123.2386ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788222438 - application/json 1002
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788222438 - 200 - application/json 7.1434ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788237862 - application/json 1096
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788237862 - 200 - application/json 5.5568ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788246072 - application/json 1183
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788246072 - 200 - application/json 6.2527ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788252434 - application/json 1270
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788252434 - 200 - application/json 2.4176ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788257334 - application/json 1357
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788257334 - 200 - application/json 3.1363ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788266492 - application/json 4797
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788266492 - 200 - application/json 9512.5859ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpfacturasnew.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpfacturasnew.aspx - 200 - text/html 375.7067ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788481727 - application/x-www-form-urlencoded 146
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788481727 - 200 - text/plain;+charset=utf-8 1.3469ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/favicon.ico - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788481729 - application/x-www-form-urlencoded 153
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788481729 - 200 - text/plain;+charset=utf-8 1.6986ms
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      GeneXus.HttpHandlerFactory.PageNotFoundException: /favicon.ico
+         at GeneXus.Application.Startup.<>c.<<Configure>b__26_4>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/favicon.ico - 404 0 - 20.8862ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788482073 - application/x-www-form-urlencoded 2217
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788482076 - application/x-www-form-urlencoded 2224
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788482073 - 200 - text/xml;+charset=utf-8 17.7962ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788482076 - 200 - text/xml;+charset=utf-8 15.2476ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788482240 - application/x-www-form-urlencoded 2189
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788482254 - application/x-www-form-urlencoded 2196
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788482240 - 200 - text/xml;+charset=utf-8 14.8939ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788482254 - 200 - text/xml;+charset=utf-8 66.8448ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788505188 - application/json 228
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788505188 - 200 - application/json 2.1936ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788508061 - application/json 4362
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788508061 - 200 - application/json 9156.0490ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/inicio.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/inicio.aspx - 200 - text/html 22.6412ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788562270 - application/x-www-form-urlencoded 205
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788562270 - 200 - text/plain;+charset=utf-8 1.4262ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788562272 - application/x-www-form-urlencoded 211
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788562278 - application/x-www-form-urlencoded 212
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788562272 - 200 - text/plain;+charset=utf-8 2.3342ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788562278 - 200 - text/plain;+charset=utf-8 2.3736ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788562400 - application/x-www-form-urlencoded 588
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788562400 - 200 - text/xml;+charset=utf-8 21.4496ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788562560 - application/x-www-form-urlencoded 594
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788562560 - 200 - text/xml;+charset=utf-8 17.8529ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788562562 - application/x-www-form-urlencoded 595
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788562596 - application/x-www-form-urlencoded 560
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788562562 - 200 - text/xml;+charset=utf-8 6.6364ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788562596 - 200 - text/xml;+charset=utf-8 6.3996ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788562766 - application/x-www-form-urlencoded 566
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788562768 - application/x-www-form-urlencoded 567
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788562766 - 200 - text/xml;+charset=utf-8 20.8062ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788562768 - 200 - text/xml;+charset=utf-8 29.2359ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wppais.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wppais.aspx - 200 - text/html 1269.9620ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wppais.js?2025102815462642 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/wppais.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wppais.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wppais.js?2025102815462642 - 200 34112 text/javascript 42.8035ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/inicio.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/inicio.aspx - 200 - text/html 15.4184ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788572640 - application/x-www-form-urlencoded 205
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788572640 - 200 - text/plain;+charset=utf-8 1.1119ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788572642 - application/x-www-form-urlencoded 211
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788572646 - application/x-www-form-urlencoded 212
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788572646 - 200 - text/plain;+charset=utf-8 0.8259ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788572642 - 200 - text/plain;+charset=utf-8 0.9517ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788572799 - application/x-www-form-urlencoded 588
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788572799 - 200 - text/xml;+charset=utf-8 1.9052ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788572829 - application/x-www-form-urlencoded 595
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788572834 - application/x-www-form-urlencoded 594
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788572834 - 200 - text/xml;+charset=utf-8 1.7893ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788572829 - 200 - text/xml;+charset=utf-8 4.0706ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788573005 - application/x-www-form-urlencoded 560
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788573005 - 200 - text/xml;+charset=utf-8 7.6408ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788573042 - application/x-www-form-urlencoded 566
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788573044 - application/x-www-form-urlencoded 567
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788573042 - 200 - text/xml;+charset=utf-8 10.3643ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788573044 - 200 - text/xml;+charset=utf-8 25.2177ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wppromocion.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wppromocion.aspx - 200 - text/html 29.7438ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wppromocion.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788576290 - application/json 399
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wppromocion.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788576290 - 200 - application/json 22.2743ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpusuario.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpusuario.aspx - 200 - text/html 1770.1730ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpusuario.js?2025102815462520 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/wpusuario.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wpusuario.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpusuario.js?2025102815462520 - 200 47302 text/javascript 68.2602ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wppromocion.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wppromocion.aspx - 200 - text/html 24.6636ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wppromocion.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788582393 - application/json 399
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wppromocion.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788582393 - 200 - application/json 14.1199ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpfacturasnew.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpfacturasnew.aspx - 200 - text/html 140.9748ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788595227 - application/x-www-form-urlencoded 146
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788595227 - 200 - text/plain;+charset=utf-8 1.0655ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788595229 - application/x-www-form-urlencoded 153
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788595229 - 200 - text/plain;+charset=utf-8 0.5104ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788595437 - application/x-www-form-urlencoded 2217
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788595437 - 200 - text/xml;+charset=utf-8 1.9767ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788595439 - application/x-www-form-urlencoded 2224
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788595439 - 200 - text/xml;+charset=utf-8 2.6232ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788595641 - application/x-www-form-urlencoded 2189
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788595646 - application/x-www-form-urlencoded 2196
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788595641 - 200 - text/xml;+charset=utf-8 11.5997ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788595646 - 200 - text/xml;+charset=utf-8 25.0922ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788615515 - application/json 4352
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788615515 - 200 - application/json 8542.0137ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788630557 - application/x-www-form-urlencoded 153
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788630557 - 200 - text/plain;+charset=utf-8 1.2423ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788630540 - application/x-www-form-urlencoded 146
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1761788630540 - 200 - text/plain;+charset=utf-8 1.9346ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788674684 - application/x-www-form-urlencoded 2267
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788674684 - 200 - text/xml;+charset=utf-8 21.6243ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788675079 - application/x-www-form-urlencoded 2274
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1761788675079 - 200 - text/xml;+charset=utf-8 15.1609ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788675413 - application/x-www-form-urlencoded 2239
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788675413 - 200 - text/xml;+charset=utf-8 13.1898ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1761788675434 - application/x-www-form-urlencoded 2246
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1761788675434 - 200 - text/xml;+charset=utf-8 102.3410ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788931373 - application/json 1002
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788931373 - 200 - application/json 3.3913ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788940077 - application/json 1095
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788940077 - 200 - application/json 3.4586ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788945031 - application/json 1183
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788945031 - 200 - application/json 4.6012ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788951646 - application/json 1274
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788951646 - 200 - application/json 3.4925ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788953528 - application/json 4714
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpfacturasnew.aspx?c01d04b1610243d2a2af23e7952e8b187f350ab2481e0b2cef19121607de9dcc,gx-no-cache=1761788953528 - 200 - application/json 6207.0976ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:24678/iisintegration - - 0
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://127.0.0.1:24678/iisintegration - 202 0 - 0.1774ms

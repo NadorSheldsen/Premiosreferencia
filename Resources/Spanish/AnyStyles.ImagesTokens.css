@@ -1,0 +1,192 @@
+@layer AnyStylesImagesTokens {
+:root
+{
+	--GX-Image_SelectRow : url(../SelectRow.png);
+	--GX-Image_Favicon : url(../Favicon.png);
+	--GX-Image_ImageLogin : url(../ImageLogin.png);
+	--GX-Image_ImageMaster : url(../ImageMaster.png);
+	--GX-Image_ImageMasterLight : url(../ImageMasterLight.png);
+	--GX-Image_ActionNewDynamicFilter : url(../ActionNewDynamicFilter.png);
+	--GX-Image_ActionRemoveDynamicFilter : url(../ActionRemoveDynamicFilter.png);
+	--GX-Image_UserInfoSmall : url(../UserInfoSmall.png);
+	--GX-Image_MenuIcon : url(../MenuIcon.png);
+	--GX-Image_ChineseIcon : url(../ChineseIcon.png);
+	--GX-Image_EnglishIcon : url(../EnglishIcon.png);
+	--GX-Image_GermanIcon : url(../GermanIcon.png);
+	--GX-Image_ItalianIcon : url(../ItalianIcon.png);
+	--GX-Image_JapaneseIcon : url(../JapaneseIcon.png);
+	--GX-Image_PortugueseIcon : url(../PortugueseIcon.png);
+	--GX-Image_SpanishIcon : url(../SpanishIcon.png);
+	--GX-Image_ArabicIcon : url(../ArabicIcon.png);
+	--GX-Image_StepSelectedUnSelected : url(../StepSelectedUnSelected.png);
+	--GX-Image_StepUnSelectedSelected : url(../StepUnSelectedSelected.png);
+	--GX-Image_WizardCompleted : url(../WizardCompleted.png);
+	--GX-Image_DVelopComboCollapse : url(../DVelopComboCollapse.png);
+	--GX-Image_DVelopComboExpand : url(../DVelopComboExpand.png);
+	--GX-Image_PromptMultipleSelection : url(../PromptMultipleSelection.png);
+	--GX-Image_BackgroundImage : url(../BackgroundImage.png);
+	--GX-Image_LoadingResults : url(../LoadingResults.gif);
+	--GX-Image_PanelCardGray_Expand : url(../PanelCardGray_Expand.png);
+	--GX-Image_AttHelpIcon : url(../AttHelpIcon.png);
+	--GX-Image_ErrorIcon : url(../ErrorIcon.png);
+	--GX-Image_WarningIcon : url(../WarningIcon.png);
+	--GX-Image_ActionDisplay : url(../ActionDisplay.png);
+	--GX-Image_Geolocation : url(../Geolocation.png);
+	--GX-Image_PageFirst : url(../PageFirst.png);
+	--GX-Image_PageLast : url(../PageLast.png);
+	--GX-Image_PageNext : url(../PageNext.png);
+	--GX-Image_PagePrevious : url(../PagePrevious.png);
+	--GX-Image_BtnDeleteImage : url(../BtnDeleteImage.png);
+	--GX-Image_BtnDisplayImage : url(../BtnDisplayImage.png);
+	--GX-Image_BtnUpdateImage : url(../BtnUpdateImage.png);
+	--GX-Image_ActionExport : url(../ActionExport.png);
+	--GX-Image_MultimediaClear : url(../MultimediaClear.png);
+	--GX-Image_MultimediaEdit : url(../MultimediaEdit.png);
+	--GX-Image_PlaceHolderVideo : url(../PlaceHolderVideo.png);
+	--GX-Image_PlaceHolderImage : url(../PlaceHolderImage.png);
+	--GX-Image_PlaceHolderAudio : url(../PlaceHolderAudio.png);
+	--GX-Image_VideoDownload : url(../VideoDownload.png);
+	--GX-Image_ActionDelete : url(../ActionDelete.png);
+	--GX-Image_WizardStepChecked : url(../WizardStepChecked.png);
+	--GX-Image_ActionCancel : url(../ActionCancel.png);
+	--GX-Image_ActionUpdate : url(../ActionUpdate.png);
+	--GX-Image_DDODefault : url(../DDODefault.png);
+	--GX-Image_DDOFiltered : url(../DDOFiltered.png);
+	--GX-Image_DDOFilteredSortedASC : url(../DDOFilteredSortedASC.png);
+	--GX-Image_DDOFilteredSortedDSC : url(../DDOFilteredSortedDSC.png);
+	--GX-Image_DDOMultiselOption : url(../DDOMultiselOption.png);
+	--GX-Image_DDOMultiselSelOption : url(../DDOMultiselSelOption.png);
+	--GX-Image_DDOOptionApplyFilter : url(../DDOOptionApplyFilter.png);
+	--GX-Image_DDOOptionCleanFilters : url(../DDOOptionCleanFilters.png);
+	--GX-Image_DDOOptionFilteringData : url(../DDOOptionFilteringData.gif);
+	--GX-Image_DDOOptionSortASC : url(../DDOOptionSortASC.png);
+	--GX-Image_DDOOptionSortDSC : url(../DDOOptionSortDSC.png);
+	--GX-Image_DDOSelectedOption : url(../DDOSelectedOption.png);
+	--GX-Image_DDOSortedASC : url(../DDOSortedASC.png);
+	--GX-Image_DDOSortedDSC : url(../DDOSortedDSC.png);
+	--GX-Image_ActionBack : url(../ActionBack.png);
+	--GX-Image_ActionSave : url(../ActionSave.png);
+	--GX-Image_ActionExportReport : url(../ActionExportReport.png);
+	--GX-Image_MoveDown : url(../MoveDown.png);
+	--GX-Image_MoveUp : url(../MoveUp.png);
+	--GX-Image_ActionFiltersSave : url(../ActionFiltersSave.png);
+	--GX-Image_ActionFiltersClean : url(../ActionFiltersClean.png);
+	--GX-Image_ActionManageFilters : url(../ActionManageFilters.png);
+	--GX-Image_ActionManage : url(../ActionManage.png);
+	--GX-Image_ClosePrompt : url(../ClosePrompt.png);
+	--GX-Image_calendar : url(../calendar.png);
+	--GX-Image_DeleteRow : url(../DeleteRow.gif);
+	--GX-Image_prompt : url(../prompt.png);
+	--GX-Image_UndeleteRow : url(../UndeleteRow.gif);
+	--GX-Image_RequiredTriangle : url(../RequiredTriangle.gif);
+	--GX-Image_ActionCopyRecord : url(../ActionCopyRecord.jpg);
+	--GX-Image_AssociationItemsLeft : url(../AssociationItemsLeft.png);
+	--GX-Image_AssociationItemsRight : url(../AssociationItemsRight.png);
+	--GX-Image_AssociationRight : url(../AssociationRight.png);
+	--GX-Image_AssociationLeft : url(../AssociationLeft.png);
+	--GX-Image_HomeBannerImageSample : url(../HomeBannerImageSample.png);
+	--GX-Image_ActionAdd : url(../ActionAdd.png);
+	--GX-Image_ActionCSV : url(../ActionCSV.png);
+	--GX-Image_Samurai : url(../Samurai.png);
+	--GX-Image_SamuraiYoko : url(../SamuraiYoko.png);
+	--GX-Image_BackgroundImageSamurai : url(../BackgroundImageSamurai.png);
+	--GX-Image_BackgroundImage2 : url(../BackgroundImage2.png);
+	--GX-Image_iconoPDF : url(../iconoPDF.png);
+	--GX-Image_WWPBaseObjects_BackgroundImage2Titan : url(../WWPBaseObjects.BackgroundImage2Titan.png);
+	--GX-Image_WWPBaseObjects_ImageLoginTitan : url(../WWPBaseObjects.ImageLoginTitan.png);
+}
+
+.GX_Image_SelectRow_Class{content: var(--GX-Image_SelectRow);}
+.GX_Image_Favicon_Class{content: var(--GX-Image_Favicon);}
+.GX_Image_ImageLogin_Class{content: var(--GX-Image_ImageLogin);}
+.GX_Image_ImageMaster_Class{content: var(--GX-Image_ImageMaster);}
+.GX_Image_ImageMasterLight_Class{content: var(--GX-Image_ImageMasterLight);}
+.GX_Image_ActionNewDynamicFilter_Class{content: var(--GX-Image_ActionNewDynamicFilter);}
+.GX_Image_ActionRemoveDynamicFilter_Class{content: var(--GX-Image_ActionRemoveDynamicFilter);}
+.GX_Image_UserInfoSmall_Class{content: var(--GX-Image_UserInfoSmall);}
+.GX_Image_MenuIcon_Class{content: var(--GX-Image_MenuIcon);}
+.GX_Image_ChineseIcon_Class{content: var(--GX-Image_ChineseIcon);}
+.GX_Image_EnglishIcon_Class{content: var(--GX-Image_EnglishIcon);}
+.GX_Image_GermanIcon_Class{content: var(--GX-Image_GermanIcon);}
+.GX_Image_ItalianIcon_Class{content: var(--GX-Image_ItalianIcon);}
+.GX_Image_JapaneseIcon_Class{content: var(--GX-Image_JapaneseIcon);}
+.GX_Image_PortugueseIcon_Class{content: var(--GX-Image_PortugueseIcon);}
+.GX_Image_SpanishIcon_Class{content: var(--GX-Image_SpanishIcon);}
+.GX_Image_ArabicIcon_Class{content: var(--GX-Image_ArabicIcon);}
+.GX_Image_StepSelectedUnSelected_Class{content: var(--GX-Image_StepSelectedUnSelected);}
+.GX_Image_StepUnSelectedSelected_Class{content: var(--GX-Image_StepUnSelectedSelected);}
+.GX_Image_WizardCompleted_Class{content: var(--GX-Image_WizardCompleted);}
+.GX_Image_DVelopComboCollapse_Class{content: var(--GX-Image_DVelopComboCollapse);}
+.GX_Image_DVelopComboExpand_Class{content: var(--GX-Image_DVelopComboExpand);}
+.GX_Image_PromptMultipleSelection_Class{content: var(--GX-Image_PromptMultipleSelection);}
+.GX_Image_BackgroundImage_Class{content: var(--GX-Image_BackgroundImage);}
+.GX_Image_LoadingResults_Class{content: var(--GX-Image_LoadingResults);}
+.GX_Image_PanelCardGray_Expand_Class{content: var(--GX-Image_PanelCardGray_Expand);}
+.GX_Image_AttHelpIcon_Class{content: var(--GX-Image_AttHelpIcon);}
+.GX_Image_ErrorIcon_Class{content: var(--GX-Image_ErrorIcon);}
+.GX_Image_WarningIcon_Class{content: var(--GX-Image_WarningIcon);}
+.GX_Image_ActionDisplay_Class{content: var(--GX-Image_ActionDisplay);}
+.GX_Image_Geolocation_Class{content: var(--GX-Image_Geolocation);}
+.GX_Image_PageFirst_Class{content: var(--GX-Image_PageFirst);}
+.GX_Image_PageLast_Class{content: var(--GX-Image_PageLast);}
+.GX_Image_PageNext_Class{content: var(--GX-Image_PageNext);}
+.GX_Image_PagePrevious_Class{content: var(--GX-Image_PagePrevious);}
+.GX_Image_BtnDeleteImage_Class{content: var(--GX-Image_BtnDeleteImage);}
+.GX_Image_BtnDisplayImage_Class{content: var(--GX-Image_BtnDisplayImage);}
+.GX_Image_BtnUpdateImage_Class{content: var(--GX-Image_BtnUpdateImage);}
+.GX_Image_ActionExport_Class{content: var(--GX-Image_ActionExport);}
+.GX_Image_MultimediaClear_Class{content: var(--GX-Image_MultimediaClear);}
+.GX_Image_MultimediaEdit_Class{content: var(--GX-Image_MultimediaEdit);}
+.GX_Image_PlaceHolderVideo_Class{content: var(--GX-Image_PlaceHolderVideo);}
+.GX_Image_PlaceHolderImage_Class{content: var(--GX-Image_PlaceHolderImage);}
+.GX_Image_PlaceHolderAudio_Class{content: var(--GX-Image_PlaceHolderAudio);}
+.GX_Image_VideoDownload_Class{content: var(--GX-Image_VideoDownload);}
+.GX_Image_ActionDelete_Class{content: var(--GX-Image_ActionDelete);}
+.GX_Image_WizardStepChecked_Class{content: var(--GX-Image_WizardStepChecked);}
+.GX_Image_ActionCancel_Class{content: var(--GX-Image_ActionCancel);}
+.GX_Image_ActionUpdate_Class{content: var(--GX-Image_ActionUpdate);}
+.GX_Image_DDODefault_Class{content: var(--GX-Image_DDODefault);}
+.GX_Image_DDOFiltered_Class{content: var(--GX-Image_DDOFiltered);}
+.GX_Image_DDOFilteredSortedASC_Class{content: var(--GX-Image_DDOFilteredSortedASC);}
+.GX_Image_DDOFilteredSortedDSC_Class{content: var(--GX-Image_DDOFilteredSortedDSC);}
+.GX_Image_DDOMultiselOption_Class{content: var(--GX-Image_DDOMultiselOption);}
+.GX_Image_DDOMultiselSelOption_Class{content: var(--GX-Image_DDOMultiselSelOption);}
+.GX_Image_DDOOptionApplyFilter_Class{content: var(--GX-Image_DDOOptionApplyFilter);}
+.GX_Image_DDOOptionCleanFilters_Class{content: var(--GX-Image_DDOOptionCleanFilters);}
+.GX_Image_DDOOptionFilteringData_Class{content: var(--GX-Image_DDOOptionFilteringData);}
+.GX_Image_DDOOptionSortASC_Class{content: var(--GX-Image_DDOOptionSortASC);}
+.GX_Image_DDOOptionSortDSC_Class{content: var(--GX-Image_DDOOptionSortDSC);}
+.GX_Image_DDOSelectedOption_Class{content: var(--GX-Image_DDOSelectedOption);}
+.GX_Image_DDOSortedASC_Class{content: var(--GX-Image_DDOSortedASC);}
+.GX_Image_DDOSortedDSC_Class{content: var(--GX-Image_DDOSortedDSC);}
+.GX_Image_ActionBack_Class{content: var(--GX-Image_ActionBack);}
+.GX_Image_ActionSave_Class{content: var(--GX-Image_ActionSave);}
+.GX_Image_ActionExportReport_Class{content: var(--GX-Image_ActionExportReport);}
+.GX_Image_MoveDown_Class{content: var(--GX-Image_MoveDown);}
+.GX_Image_MoveUp_Class{content: var(--GX-Image_MoveUp);}
+.GX_Image_ActionFiltersSave_Class{content: var(--GX-Image_ActionFiltersSave);}
+.GX_Image_ActionFiltersClean_Class{content: var(--GX-Image_ActionFiltersClean);}
+.GX_Image_ActionManageFilters_Class{content: var(--GX-Image_ActionManageFilters);}
+.GX_Image_ActionManage_Class{content: var(--GX-Image_ActionManage);}
+.GX_Image_ClosePrompt_Class{content: var(--GX-Image_ClosePrompt);}
+.GX_Image_calendar_Class{content: var(--GX-Image_calendar);}
+.GX_Image_DeleteRow_Class{content: var(--GX-Image_DeleteRow);}
+.GX_Image_prompt_Class{content: var(--GX-Image_prompt);}
+.GX_Image_UndeleteRow_Class{content: var(--GX-Image_UndeleteRow);}
+.GX_Image_RequiredTriangle_Class{content: var(--GX-Image_RequiredTriangle);}
+.GX_Image_ActionCopyRecord_Class{content: var(--GX-Image_ActionCopyRecord);}
+.GX_Image_AssociationItemsLeft_Class{content: var(--GX-Image_AssociationItemsLeft);}
+.GX_Image_AssociationItemsRight_Class{content: var(--GX-Image_AssociationItemsRight);}
+.GX_Image_AssociationRight_Class{content: var(--GX-Image_AssociationRight);}
+.GX_Image_AssociationLeft_Class{content: var(--GX-Image_AssociationLeft);}
+.GX_Image_HomeBannerImageSample_Class{content: var(--GX-Image_HomeBannerImageSample);}
+.GX_Image_ActionAdd_Class{content: var(--GX-Image_ActionAdd);}
+.GX_Image_ActionCSV_Class{content: var(--GX-Image_ActionCSV);}
+.GX_Image_Samurai_Class{content: var(--GX-Image_Samurai);}
+.GX_Image_SamuraiYoko_Class{content: var(--GX-Image_SamuraiYoko);}
+.GX_Image_BackgroundImageSamurai_Class{content: var(--GX-Image_BackgroundImageSamurai);}
+.GX_Image_BackgroundImage2_Class{content: var(--GX-Image_BackgroundImage2);}
+.GX_Image_iconoPDF_Class{content: var(--GX-Image_iconoPDF);}
+.GX_Image_WWPBaseObjects_BackgroundImage2Titan_Class{content: var(--GX-Image_WWPBaseObjects_BackgroundImage2Titan);}
+.GX_Image_WWPBaseObjects_ImageLoginTitan_Class{content: var(--GX-Image_WWPBaseObjects_ImageLoginTitan);}
+}

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="3e189fbc-86a3-41b7-916b-6b88035aecb4">
+  <Table name="Factura" />
+  <Table name="Medida" />
+  <Table name="PromocionModelo" />
+  <Table name="FacturaMedida" />
+</Dependencies>

@@ -1,0 +1,390 @@
+warn: Microsoft.AspNetCore.DataProtection.Repositories.EphemeralXmlRepository[50]
+      Using an in-memory repository. Keys will not be persisted to storage.
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[59]
+      Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+warn: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[16]
+      The WebRootPath was not found: C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wwwroot. Static files may be unavailable.
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[58]
+      Creating key {8e14e747-68b3-4eae-8eda-5ff04bade473} with creation date 2026-05-13 18:30:18Z, activation date 2026-05-13 18:30:18Z, and expiration date 2026-08-11 18:30:18Z.
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {8e14e747-68b3-4eae-8eda-5ff04bade473} may be persisted to storage in unencrypted form.
+Hosting environment: Production
+Content root path: C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx
+Now listening on: http://127.0.0.1:22621
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpmodelo.aspx - - -
+warn: Microsoft.AspNetCore.Session.SessionMiddleware[7]
+      Error unprotecting the session cookie.
+      System.Security.Cryptography.CryptographicException: The key {4c0e0815-7e1f-48d2-b0d1-0a676a48fc78} was not found in the key ring. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+         at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+         at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+info: Microsoft.AspNetCore.Session.DistributedSession[3]
+      Session started; Key:5d078209-4730-3cf9-4604-4c45df430be5, Id:ae15cb2d-f7a7-5502-7ce6-1afa7c7c6d56
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpmodelo.aspx - 200 - application/json 459.1787ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/login.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/login.aspx - 200 - text/html 411.8118ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/login.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697035763 - application/json 171
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/login.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697035763 - 200 - application/json 756.5053ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/inicio.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/inicio.aspx - 200 - text/html 146.4388ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1778697037005 - application/x-www-form-urlencoded 205
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1778697037005 - application/x-www-form-urlencoded 211
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1778697037005 - application/x-www-form-urlencoded 212
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1778697037005 - 200 - text/plain;+charset=utf-8 33.7018ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1778697037005 - 200 - text/plain;+charset=utf-8 29.5376ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?recordsetcachekey,1778697037005 - 200 - text/plain;+charset=utf-8 29.6046ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1778697037301 - application/x-www-form-urlencoded 594
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1778697037305 - application/x-www-form-urlencoded 588
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?metadata,1778697037306 - application/x-www-form-urlencoded 595
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1778697037306 - 200 - text/xml;+charset=utf-8 105.7769ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1778697037305 - 200 - text/xml;+charset=utf-8 105.7899ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?metadata,1778697037301 - 200 - text/xml;+charset=utf-8 137.9293ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1778697037591 - application/x-www-form-urlencoded 560
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1778697037594 - application/x-www-form-urlencoded 566
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/agxpl_get.aspx?data,1778697037592 - application/x-www-form-urlencoded 567
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1778697037594 - 200 - text/xml;+charset=utf-8 275.0152ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1778697037591 - 200 - text/xml;+charset=utf-8 275.8121ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/agxpl_get.aspx?data,1778697037592 - 200 - text/xml;+charset=utf-8 273.9410ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpmodelo.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpmodelo.aspx - 200 - text/html 239.7798ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697060806 - application/json 779
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697060806 - 200 - application/json 54.9797ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697069335 - application/json 750
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697069335 - 200 - application/json 32.6786ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697077152 - application/json 1185
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697077152 - 200 - application/json 87.8999ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpmedidamodelo.aspx?WF2YmCuKT8lPFgDwJJ1Sbatcg9Lc5u2kHXo_O6dlsTE - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpmedidamodelo.aspx?WF2YmCuKT8lPFgDwJJ1Sbatcg9Lc5u2kHXo_O6dlsTE - 200 - text/html 2766.0958ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpmedidamodelo.js?20265111131396 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/wpmedidamodelo.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wpmedidamodelo.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpmedidamodelo.js?20265111131396 - 200 40876 text/javascript 83.1393ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1Sbatcg9Lc5u2kHXo_O6dlsTE,gx-no-cache=1778697084543 - application/json 1056
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1Sbatcg9Lc5u2kHXo_O6dlsTE,gx-no-cache=1778697084543 - 200 - application/json 82.2206ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpmodelo.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpmodelo.aspx - 200 - text/html 39.1553ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697117318 - application/json 1186
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697117318 - 200 - application/json 9.2615ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPel0z7RuTwgsE42BNyqVeWcw,gxPopupLevel%3D0%3B - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/resize.gif - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/Resources/ClosePrompt.png - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/resize.gif'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\resize.gif'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/resize.gif - 200 77 image/gif 1318.3837ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/ClosePrompt.png'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\Resources\ClosePrompt.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/Resources/ClosePrompt.png - 200 316 image/png 18.9235ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPel0z7RuTwgsE42BNyqVeWcw,gxPopupLevel%3D0%3B - 200 - text/html 3913.5163ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wwpbaseobjects/workwithplusmasterpageprompt.js?202651111305770 - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmodelo.js?2025102815462699 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/wwpbaseobjects/workwithplusmasterpageprompt.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wwpbaseobjects\workwithplusmasterpageprompt.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wwpbaseobjects/workwithplusmasterpageprompt.js?202651111305770 - 200 10709 text/javascript 54.8187ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/wpagregarmodelo.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wpagregarmodelo.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmodelo.js?2025102815462699 - 200 7675 text/javascript 74.3905ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPel0z7RuTwgsE42BNyqVeWcw,gxPopupLevel%3D0%3B,gx-no-cache=1778697125403 - application/json 723
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPel0z7RuTwgsE42BNyqVeWcw,gxPopupLevel%3D0%3B,gx-no-cache=1778697125403 - 200 - application/json 43.2679ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697125589 - application/json 717
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697125589 - 200 - application/json 28.0606ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697140179 - application/json 1183
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697140179 - 200 - application/json 5.9144ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPemXHEiHehnU1zzQEKYSiGPQ,gxPopupLevel%3D0%3B - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPemXHEiHehnU1zzQEKYSiGPQ,gxPopupLevel%3D0%3B - 200 - text/html 11.1674ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPemXHEiHehnU1zzQEKYSiGPQ,gxPopupLevel%3D0%3B,gx-no-cache=1778697142623 - application/json 757
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPemXHEiHehnU1zzQEKYSiGPQ,gxPopupLevel%3D0%3B,gx-no-cache=1778697142623 - 200 - application/json 32.6620ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697142814 - application/json 714
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697142814 - 200 - application/json 23.6144ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpmodelo.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpmodelo.aspx - 200 - text/html 40.6161ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697166723 - application/json 791
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697166723 - 200 - application/json 20.9660ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697177464 - application/json 1189
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697177464 - 200 - application/json 4.5501ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPem4PLJKFhS4GfKLL8mBYvu4,gxPopupLevel%3D0%3B - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPem4PLJKFhS4GfKLL8mBYvu4,gxPopupLevel%3D0%3B - 200 - text/html 8.2046ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPem4PLJKFhS4GfKLL8mBYvu4,gxPopupLevel%3D0%3B,gx-no-cache=1778697180753 - application/json 738
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPem4PLJKFhS4GfKLL8mBYvu4,gxPopupLevel%3D0%3B,gx-no-cache=1778697180753 - 200 - application/json 12.8691ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697180906 - application/json 722
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697180906 - 200 - application/json 19.7822ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697187513 - application/json 1189
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697187513 - 200 - application/json 3.5734ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPeiIawRVqEGTbCRkxvGH-qto,gxPopupLevel%3D0%3B - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPeiIawRVqEGTbCRkxvGH-qto,gxPopupLevel%3D0%3B - 200 - text/html 6.8409ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPeiIawRVqEGTbCRkxvGH-qto,gxPopupLevel%3D0%3B,gx-no-cache=1778697189902 - application/json 760
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPeiIawRVqEGTbCRkxvGH-qto,gxPopupLevel%3D0%3B,gx-no-cache=1778697189902 - 200 - application/json 12.5273ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697190058 - application/json 721
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697190058 - 200 - application/json 20.5238ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697200905 - application/json 1018
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697200905 - 200 - application/json 4.5122ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B - 200 - text/html 7.1778ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B,gx-no-cache=1778697215302 - application/json 670
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B,gx-no-cache=1778697215302 - 200 - application/json 9.4939ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697215451 - application/json 722
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697215451 - 200 - application/json 21.4621ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697223345 - application/json 1017
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697223345 - 200 - application/json 3.5777ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B - 200 - text/html 7.5762ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B,gx-no-cache=1778697230989 - application/json 667
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B,gx-no-cache=1778697230989 - 200 - application/json 9.4257ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697231141 - application/json 722
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697231141 - 200 - application/json 22.6602ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697235444 - application/json 1017
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697235444 - 200 - application/json 3.0887ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B - 200 - text/html 6.8742ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B,gx-no-cache=1778697247625 - application/json 675
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B,gx-no-cache=1778697247625 - 200 - application/json 7.0934ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697247780 - application/json 721
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697247780 - 200 - application/json 19.1511ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697249299 - application/json 1018
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697249299 - 200 - application/json 2.9969ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B - 200 - text/html 5.3896ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B,gx-no-cache=1778697262606 - application/json 675
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPei1QjYvVp5KKce_oNvOBI3o,gxPopupLevel%3D0%3B,gx-no-cache=1778697262606 - 200 - application/json 9.4778ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697262749 - application/json 722
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697262749 - 200 - application/json 22.9112ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697270396 - application/json 1192
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697270396 - 200 - application/json 4.5301ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpmedidamodelo.aspx?WF2YmCuKT8lPFgDwJJ1SbV7_AxxEyO4NrcUGKH7QuMM - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpmedidamodelo.aspx?WF2YmCuKT8lPFgDwJJ1SbV7_AxxEyO4NrcUGKH7QuMM - 200 - text/html 40.1524ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1SbV7_AxxEyO4NrcUGKH7QuMM,gx-no-cache=1778697272156 - application/json 1316
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1SbV7_AxxEyO4NrcUGKH7QuMM,gx-no-cache=1778697272156 - 200 - application/json 6.5330ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmedida.aspx?8E6GnLrXMXRZ5JxL6GdWfubCxk5C-T0pZo6flcwElJn5tenZq_JJj4nuV9Rg3FZy,gxPopupLevel%3D0%3B - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmedida.aspx?8E6GnLrXMXRZ5JxL6GdWfubCxk5C-T0pZo6flcwElJn5tenZq_JJj4nuV9Rg3FZy,gxPopupLevel%3D0%3B - 200 - text/html 3816.4442ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmedida.js?202510281546276 - - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/wpagregarmedida.js'. Physical path: 'C:\Inetpub\vhosts\megatransporte.mx\premios.megatransporte.mx\wpagregarmedida.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmedida.js?202510281546276 - 200 8008 text/javascript 95.5061ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1SbV7_AxxEyO4NrcUGKH7QuMM,gx-no-cache=1778697289776 - application/json 1025
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1SbV7_AxxEyO4NrcUGKH7QuMM,gx-no-cache=1778697289776 - 200 - application/json 9.2879ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpmodelo.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpmodelo.aspx - 200 - text/html 35.3707ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697297326 - application/json 1192
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697297326 - 200 - application/json 3.6498ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpmedidamodelo.aspx?WF2YmCuKT8lPFgDwJJ1SbV7_AxxEyO4NrcUGKH7QuMM - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpmedidamodelo.aspx?WF2YmCuKT8lPFgDwJJ1SbV7_AxxEyO4NrcUGKH7QuMM - 200 - text/html 20.0554ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1SbV7_AxxEyO4NrcUGKH7QuMM,gx-no-cache=1778697298904 - application/json 1317
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1SbV7_AxxEyO4NrcUGKH7QuMM,gx-no-cache=1778697298904 - 200 - application/json 4.4722ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmedida.aspx?8E6GnLrXMXRZ5JxL6GdWfubCxk5C-T0pZo6flcwElJn5tenZq_JJj4nuV9Rg3FZy,gxPopupLevel%3D0%3B - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmedida.aspx?8E6GnLrXMXRZ5JxL6GdWfubCxk5C-T0pZo6flcwElJn5tenZq_JJj4nuV9Rg3FZy,gxPopupLevel%3D0%3B - 200 - text/html 8.2266ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpagregarmedida.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,8E6GnLrXMXRZ5JxL6GdWfubCxk5C-T0pZo6flcwElJn5tenZq_JJj4nuV9Rg3FZy,gxPopupLevel%3D0%3B,gx-no-cache=1778697324609 - application/json 892
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpagregarmedida.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,8E6GnLrXMXRZ5JxL6GdWfubCxk5C-T0pZo6flcwElJn5tenZq_JJj4nuV9Rg3FZy,gxPopupLevel%3D0%3B,gx-no-cache=1778697324609 - 200 - application/json 45.6470ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1SbV7_AxxEyO4NrcUGKH7QuMM,gx-no-cache=1778697324785 - application/json 1024
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1SbV7_AxxEyO4NrcUGKH7QuMM,gx-no-cache=1778697324785 - 200 - application/json 12.4765ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpmodelo.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpmodelo.aspx - 200 - text/html 30.1249ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697413650 - application/json 1193
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697413650 - 200 - application/json 3.0185ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpmedidamodelo.aspx?WF2YmCuKT8lPFgDwJJ1Sbd0JxZTszx1B-rmoPDD68ZE - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpmedidamodelo.aspx?WF2YmCuKT8lPFgDwJJ1Sbd0JxZTszx1B-rmoPDD68ZE - 200 - text/html 31.3848ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1Sbd0JxZTszx1B-rmoPDD68ZE,gx-no-cache=1778697415297 - application/json 1318
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1Sbd0JxZTszx1B-rmoPDD68ZE,gx-no-cache=1778697415297 - 200 - application/json 3.1078ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmedida.aspx?8E6GnLrXMXRZ5JxL6GdWfhcg94JNJ-KgSwQ93E4vAIJrCXLx31kYifm-YcgQVdDn,gxPopupLevel%3D0%3B - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmedida.aspx?8E6GnLrXMXRZ5JxL6GdWfhcg94JNJ-KgSwQ93E4vAIJrCXLx31kYifm-YcgQVdDn,gxPopupLevel%3D0%3B - 200 - text/html 4.5050ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpagregarmedida.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,8E6GnLrXMXRZ5JxL6GdWfhcg94JNJ-KgSwQ93E4vAIJrCXLx31kYifm-YcgQVdDn,gxPopupLevel%3D0%3B,gx-no-cache=1778697437346 - application/json 895
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpagregarmedida.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,8E6GnLrXMXRZ5JxL6GdWfhcg94JNJ-KgSwQ93E4vAIJrCXLx31kYifm-YcgQVdDn,gxPopupLevel%3D0%3B,gx-no-cache=1778697437346 - 200 - application/json 25.3876ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1Sbd0JxZTszx1B-rmoPDD68ZE,gx-no-cache=1778697437507 - application/json 1025
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmedidamodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,WF2YmCuKT8lPFgDwJJ1Sbd0JxZTszx1B-rmoPDD68ZE,gx-no-cache=1778697437507 - 200 - application/json 13.0517ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpmodelo.aspx - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpmodelo.aspx - 200 - text/html 26.4670ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697449056 - application/json 1194
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697449056 - 200 - application/json 4.1578ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPen8PA3qpMIn573IhV2aRHh1W1FbA50de1kx_2Q6Agkam,gxPopupLevel%3D0%3B - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPen8PA3qpMIn573IhV2aRHh1W1FbA50de1kx_2Q6Agkam,gxPopupLevel%3D0%3B - 200 - text/html 7.3175ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPen8PA3qpMIn573IhV2aRHh1W1FbA50de1kx_2Q6Agkam,gxPopupLevel%3D0%3B,gx-no-cache=1778697456722 - application/json 704
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPen8PA3qpMIn573IhV2aRHh1W1FbA50de1kx_2Q6Agkam,gxPopupLevel%3D0%3B,gx-no-cache=1778697456722 - 200 - application/json 10.1538ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697456869 - application/json 722
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697456869 - 200 - application/json 18.2853ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697461664 - application/json 1193
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697461664 - 200 - application/json 3.5755ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPeksVZk4cjffaXyJbk_bfBitRwEY126ntbuKucgohFj2W,gxPopupLevel%3D0%3B - - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET https://premios.megatransporte.mx/wpagregarmodelo.aspx?yUOsiUcCXM_ORuyCYaGPeksVZk4cjffaXyJbk_bfBitRwEY126ntbuKucgohFj2W,gxPopupLevel%3D0%3B - 200 - text/html 8.0192ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPeksVZk4cjffaXyJbk_bfBitRwEY126ntbuKucgohFj2W,gxPopupLevel%3D0%3B,gx-no-cache=1778697467354 - application/json 704
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpagregarmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,yUOsiUcCXM_ORuyCYaGPeksVZk4cjffaXyJbk_bfBitRwEY126ntbuKucgohFj2W,gxPopupLevel%3D0%3B,gx-no-cache=1778697467354 - 200 - application/json 11.2083ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697467491 - application/json 721
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST https://premios.megatransporte.mx/wpmodelo.aspx?c01d04b1610243d2a2af23e7952e8b180bfd8e6c1d737d6bea0440094a9c24e8,gx-no-cache=1778697467491 - 200 - application/json 23.6292ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:22621/iisintegration - - 0
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://127.0.0.1:22621/iisintegration - 202 0 - 0.1732ms

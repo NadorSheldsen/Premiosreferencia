@@ -1,0 +1,28 @@
+{
+	"Name": "KeepAliveControl",
+	"Target": "",
+	"IsControlType": false,
+	"Template": "<Control>  <Name>KeepAliveControl</Name>  <Class>KeepAliveControl</Class>  <Description>Keep session alive</Description>  <Type>Web</Type>  <SupportLevel>HTML</SupportLevel>  <Script Name=\"KeepAliveScript\" When=\"AfterShow\">    <![CDATA[      console.log(\'KeepAlive script cargado\');      setInterval(function () {        console.log(\'KeepAlive: Enviando ping\');        fetch(\'KeepAlive.aspx\')          .then(response => {            if (!response.ok) {              console.warn(\'KeepAlive falló:\', response.status);            } else {              console.log(\'KeepAlive exitoso\');            }          })          .catch(error => {            console.error(\'Error en KeepAlive:\', error);          });      }, 10000); // Cada 10 segundos    ]]>  </Script></Control>", 
+	"Events": [
+	],
+	"Properties": [
+	],
+	"Methods": {
+		"Public": [
+		],
+		"Private": [
+		]
+	},
+	"Scripts": {
+		"AfterShow": [
+		],
+		"BeforeShow": [
+		]
+	},
+	"Dependencies": [
+	],
+	"Imports": [
+	],
+	"Styles": [
+	]
+}

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="1c61b7eb-0765-4ae3-b3a0-4877c9fd1126">
+  <Table name="MotivoRechazo" />
+  <Table name="Factura" />
+</Dependencies>
